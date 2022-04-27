@@ -1,0 +1,244 @@
+name,code,freq
+"Antigua and Barbuda",ATG,NULL
+Algeria,DZA,NULL
+Azerbaijan,AZE,NULL
+Albania,ALB,NULL
+Armenia,ARM,NULL
+Angola,AGO,NULL
+"American Samoa",ASM,NULL
+Argentina,ARG,50
+Australia,AUS,71
+Bahrain,BHR,NULL
+Barbados,BRB,NULL
+Bermuda,BMU,NULL
+Bahamas,BHS,NULL
+Bangladesh,BGD,1
+Belize,BLZ,NULL
+"Bosnia and Herzegovina",BIH,NULL
+Bolivia,BOL,NULL
+Burma,MMR,NULL
+Benin,BEN,NULL
+"Solomon Islands",SLB,NULL
+Brazil,BRA,50
+Bulgaria,BGR,5
+"Brunei Darussalam",BRN,NULL
+Canada,CAN,150
+Cambodia,KHM,2
+"Sri Lanka",LKA,NULL
+Congo,COG,NULL
+"Democratic Republic of the Congo",COD,NULL
+Burundi,BDI,NULL
+China,CHN,72
+Afghanistan,AFG,NULL
+Bhutan,BTN,NULL
+Chile,CHL,17
+"Cayman Islands",CYM,NULL
+Cameroon,CMR,NULL
+Chad,TCD,NULL
+Comoros,COM,NULL
+Colombia,COL,27
+"Costa Rica",CRI,NULL
+"Central African Republic",CAF,NULL
+Cuba,CUB,NULL
+"Cape Verde",CPV,NULL
+"Cook Islands",COK,NULL
+Cyprus,CYP,NULL
+Denmark,DNK,22
+Djibouti,DJI,NULL
+Dominica,DMA,NULL
+"Dominican Republic",DOM,1
+Ecuador,ECU,NULL
+Egypt,EGY,51
+Ireland,IRL,16
+"Equatorial Guinea",GNQ,NULL
+Estonia,EST,NULL
+Eritrea,ERI,NULL
+"El Salvador",SLV,NULL
+Ethiopia,ETH,NULL
+Austria,AUT,5
+"Czech Republic",CZE,5
+"French Guiana",GUF,NULL
+Finland,FIN,3
+Fiji,FJI,NULL
+"Falkland Islands (Malvinas)",FLK,NULL
+"French Polynesia",PYF,NULL
+France,FRA,127
+Gambia,GMB,NULL
+Gabon,GAB,NULL
+Georgia,GEO,2
+Ghana,GHA,1
+Grenada,GRD,NULL
+Greenland,GRL,NULL
+Germany,DEU,59
+Guam,GUM,NULL
+Greece,GRC,NULL
+Guatemala,GTM,1
+Guinea,GIN,NULL
+Guyana,GUY,NULL
+Haiti,HTI,NULL
+Honduras,HND,NULL
+Croatia,HRV,1
+Hungary,HUN,2
+Iceland,ISL,4
+India,IND,721
+"Iran (Islamic Republic of)",IRN,1
+Israel,ISR,15
+Italy,ITA,34
+"Cote d'Ivoire",CIV,NULL
+Iraq,IRQ,NULL
+Japan,JPN,130
+Jamaica,JAM,NULL
+Jordan,JOR,NULL
+Kenya,KEN,NULL
+Kyrgyzstan,KGZ,NULL
+Kiribati,KIR,NULL
+Kuwait,KWT,NULL
+Kazakhstan,KAZ,NULL
+"Lao People's Democratic Republic",LAO,NULL
+Lebanon,LBN,7
+Latvia,LVA,NULL
+Belarus,BLR,NULL
+Lithuania,LTU,NULL
+Liberia,LBR,NULL
+Slovakia,SVK,NULL
+Liechtenstein,LIE,NULL
+"Libyan Arab Jamahiriya",LBY,NULL
+Madagascar,MDG,NULL
+Martinique,MTQ,NULL
+Mongolia,MNG,NULL
+Montserrat,MSR,NULL
+"The former Yugoslav Republic of Macedonia",MKD,NULL
+Mali,MLI,NULL
+Morocco,MAR,NULL
+Mauritius,MUS,NULL
+Mauritania,MRT,NULL
+Malta,MLT,NULL
+Oman,OMN,NULL
+Maldives,MDV,NULL
+Mexico,MEX,90
+Malaysia,MYS,17
+Mozambique,MOZ,NULL
+Malawi,MWI,NULL
+"New Caledonia",NCL,NULL
+Niue,NIU,NULL
+Niger,NER,NULL
+Aruba,ABW,NULL
+Anguilla,AIA,NULL
+Belgium,BEL,13
+"Hong Kong",HKG,73
+"Northern Mariana Islands",MNP,NULL
+"Faroe Islands",FRO,NULL
+Andorra,AND,NULL
+Gibraltar,GIB,NULL
+"Isle of Man",IMN,NULL
+Luxembourg,LUX,NULL
+Macau,MAC,NULL
+Monaco,MCO,NULL
+Palestine,PSE,NULL
+Montenegro,MNE,NULL
+Mayotte,MYT,NULL
+"Åland Islands",ALA,NULL
+"Norfolk Island",NFK,NULL
+"Cocos (Keeling) Islands",CCK,NULL
+Antarctica,ATA,NULL
+"Bouvet Island",BVT,NULL
+"French Southern and Antarctic Lands",ATF,NULL
+"Heard Island and McDonald Islands",HMD,NULL
+"British Indian Ocean Territory",IOT,NULL
+"Christmas Island",CXR,NULL
+"United States Minor Outlying Islands",UMI,NULL
+Vanuatu,VUT,NULL
+Nigeria,NGA,26
+Netherlands,NLD,16
+Norway,NOR,12
+Nepal,NPL,NULL
+Nauru,NRU,NULL
+Suriname,SUR,NULL
+Nicaragua,NIC,NULL
+"New Zealand",NZL,9
+Paraguay,PRY,1
+Peru,PER,5
+Pakistan,PAK,21
+Poland,POL,14
+Panama,PAN,NULL
+Portugal,PRT,2
+"Papua New Guinea",PNG,NULL
+Guinea-Bissau,GNB,NULL
+Qatar,QAT,NULL
+Reunion,REU,NULL
+Romania,ROU,4
+"Republic of Moldova",MDA,NULL
+Philippines,PHL,45
+"Puerto Rico",PRI,NULL
+Russia,RUS,12
+Rwanda,RWA,NULL
+"Saudi Arabia",SAU,2
+"Saint Kitts and Nevis",KNA,NULL
+Seychelles,SYC,NULL
+"South Africa",ZAF,10
+Lesotho,LSO,NULL
+Botswana,BWA,NULL
+Senegal,SEN,NULL
+Slovenia,SVN,1
+"Sierra Leone",SLE,NULL
+Singapore,SGP,17
+Somalia,SOM,1
+Spain,ESP,119
+"Saint Lucia",LCA,NULL
+Sudan,SDN,NULL
+Sweden,SWE,10
+"Syrian Arab Republic",SYR,NULL
+Switzerland,CHE,7
+"Trinidad and Tobago",TTO,NULL
+Thailand,THA,49
+Tajikistan,TJK,NULL
+Tokelau,TKL,NULL
+Tonga,TON,NULL
+Togo,TGO,NULL
+"Sao Tome and Principe",STP,NULL
+Tunisia,TUN,NULL
+Turkey,TUR,75
+Tuvalu,TUV,NULL
+Turkmenistan,TKM,NULL
+"United Republic of Tanzania",TZA,NULL
+Uganda,UGA,NULL
+"United Kingdom",GBR,383
+Ukraine,UKR,1
+"United States",USA,1818
+"Burkina Faso",BFA,NULL
+Uruguay,URY,4
+Uzbekistan,UZB,NULL
+"Saint Vincent and the Grenadines",VCT,NULL
+Venezuela,VEN,2
+"British Virgin Islands",VGB,NULL
+"Viet Nam",VNM,4
+"United States Virgin Islands",VIR,NULL
+Namibia,NAM,NULL
+"Wallis and Futuna Islands",WLF,NULL
+Samoa,WSM,NULL
+Swaziland,SWZ,NULL
+Yemen,YEM,NULL
+Zambia,ZMB,NULL
+Zimbabwe,ZWE,NULL
+Indonesia,IDN,46
+Guadeloupe,GLP,NULL
+"Netherlands Antilles",ANT,NULL
+"United Arab Emirates",ARE,10
+Timor-Leste,TLS,NULL
+"Pitcairn Islands",PCN,NULL
+Palau,PLW,NULL
+"Marshall Islands",MHL,NULL
+"Saint Pierre and Miquelon",SPM,NULL
+"Saint Helena",SHN,NULL
+"San Marino",SMR,NULL
+"Turks and Caicos Islands",TCA,NULL
+"Western Sahara",ESH,NULL
+Serbia,SRB,2
+"Holy See (Vatican City)",VAT,NULL
+Svalbard,SJM,NULL
+"Saint Martin",MAF,NULL
+"Saint Barthelemy",BLM,NULL
+Guernsey,GGY,NULL
+Jersey,JEY,NULL
+"South Georgia South Sandwich Islands",SGS,NULL
+Taiwan,TWN,69
