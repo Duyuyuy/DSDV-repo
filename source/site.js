@@ -17,41 +17,34 @@ const projection = d3.geoMercator()
 
 const data = new Map();
 const colorScale = d3.scaleThreshold()
-.domain([9, 20, 49, 100, 150,383,721,1818])
+.domain([1,9, 20, 49, 100, 151,384,725,1820])
 .range(d3.schemeBlues[9]);
 
 
 // Load external data and boot
 Promise.all([
 d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/new.csv", function(d) {
-
-data.set(d.code, +d.freq)
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/notnew.csv", function(d) {
+data.set(d.code, +d.pop)
   
 })]).then(function(loadData){
   let topo = loadData[0]
   console.log(topo);
-  let mouseOver = function(d) {
-  d3.selectAll(".Country")
-    .transition()
-    .duration(200)
-    .style("opacity", .5)
+  let mouseOver = function() {
   d3.select(this)
-    .transition()
-    .duration(200)
-    .style("opacity", 1)
     .style("stroke", "black")
-}
+    .append("title")
+    .text(function(d) {
+      return d.properties.name + ", " +d.total})
+    
+
+};
 
 let mouseLeave = function(d) {
-  d3.selectAll(".Country")
-    .transition()
-    .duration(200)
-    .style("opacity", .8)
   d3.select(this)
     .transition()
     .duration(200)
-    .style("stroke", "transparent")
+    .style("stroke", "none")
 }
 
 // Draw the map
