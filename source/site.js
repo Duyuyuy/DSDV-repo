@@ -20,14 +20,39 @@ const colorScale = d3.scaleThreshold()
 .domain([1,9, 20, 49, 100, 151,384,725,1820])
 .range(d3.schemeBlues[9]);
 
+var rowConverter = function(d) {
+  return {
+    State:d['Province/State'],
+    Country:d['Country/Region'],
+    Lat: parseFloat(d['Lat']),
+    Long: parseFloat(d['Long']),
+    case: parseFloat(d['4/5/20']),
 
+  };
+ }
+//  var rowConverter = function(d) {
+//   return {
+//     State:d['Province/State'],
+//     Country:d['Country/Region'],
+//     Lat: parseFloat(d['Lat']),
+//     Long: parseFloat(d['Long']),
+//     case: parseFloat(d['4/5/20']),
+
+//   };
+//  }
+
+let value=function(d) {return {freq:d.freq, list_in:{name:d.list_in,amount:d.amount}}}
+let de=[];
 // Load external data and boot
 Promise.all([
 d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/notnew.csv", function(d) {
-data.set(d.code, +d.pop)
-  
-})]).then(function(loadData){
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/output%20(1).csv", function(d) {
+
+data.set(d.code, d.freq)
+
+})
+
+]).then(function(loadData){
   let topo = loadData[0]
   console.log(topo);
   let mouseOver = function() {
@@ -36,7 +61,6 @@ data.set(d.code, +d.pop)
     .append("title")
     .text(function(d) {
       return d.properties.name + ", " +d.total})
-    
 
 };
 
@@ -67,7 +91,8 @@ svg.append("g")
     .style("opacity", .8)
     .on("mouseover", mouseOver )
     .on("mouseleave", mouseLeave )
+    
 
-})
+  })
 
 }(d3))
