@@ -1,0 +1,246 @@
+code,name,freq
+ATG,"Antigua and Barbuda",0
+DZA,Algeria,0
+AZE,Azerbaijan,1
+ALB,Albania,1
+ARM,Armenia,1
+AGO,Angola,0
+ASM,"American Samoa",0
+ARG,Argentina,61
+AUS,Australia,97
+BHR,Bahrain,0
+BRB,Barbados,0
+BMU,Bermuda,1
+BHS,Bahamas,0
+BGD,Bangladesh,2
+BLZ,Belize,0
+BIH,"Bosnia and Herzegovina",0
+BOL,Bolivia,0
+MMR,Burma,0
+BEN,Benin,0
+SLB,"Solomon Islands",0
+BRA,Brazil,56
+BGR,Bulgaria,7
+BRN,"Brunei Darussalam",0
+CAN,Canada,228
+KHM,Cambodia,3
+LKA,"Sri Lanka",1
+COG,Congo,0
+COD,"Democratic Republic of the Congo",0
+BDI,Burundi,0
+CHN,China,111
+AFG,Afghanistan,0
+BTN,Bhutan,0
+CHL,Chile,22
+CYM,"Cayman Islands",1
+CMR,Cameroon,0
+TCD,Chad,0
+COM,Comoros,0
+COL,Colombia,30
+CRI,"Costa Rica",0
+CAF,"Central African Republic",0
+CUB,Cuba,1
+CPV,"Cape Verde",0
+COK,"Cook Islands",0
+CYP,Cyprus,0
+DNK,Denmark,30
+DJI,Djibouti,0
+DMA,Dominica,0
+DOM,"Dominican Republic",2
+ECU,Ecuador,1
+EGY,Egypt,53
+IRL,Ireland,24
+GNQ,"Equatorial Guinea",0
+EST,Estonia,0
+ERI,Eritrea,0
+SLV,"El Salvador",0
+ETH,Ethiopia,0
+AUT,Austria,7
+CZE,"Czech Republic",14
+GUF,"French Guiana",0
+FIN,Finland,6
+FJI,Fiji,0
+FLK,"Falkland Islands (Malvinas)",0
+PYF,"French Polynesia",0
+FRA,France,227
+GMB,Gambia,0
+GAB,Gabon,0
+GEO,Georgia,2
+GHA,Ghana,1
+GRD,Grenada,0
+GRL,Greenland,0
+DEU,Germany,122
+GUM,Guam,0
+GRC,Greece,4
+GTM,Guatemala,1
+GIN,Guinea,0
+GUY,Guyana,0
+HTI,Haiti,0
+HND,Honduras,0
+HRV,Croatia,3
+HUN,Hungary,3
+ISL,Iceland,6
+IND,India,748
+IRN,"Iran (Islamic Republic of)",0
+ISR,Israel,20
+ITA,Italy,55
+CIV,"Cote d'Ivoire",0
+IRQ,Iraq,2
+JPN,Japan,161
+JAM,Jamaica,0
+JOR,Jordan,6
+KEN,Kenya,1
+KGZ,Kyrgyzstan,0
+KIR,Kiribati,0
+KWT,Kuwait,0
+KAZ,Kazakhstan,1
+LAO,"Lao People's Democratic Republic",0
+LBN,Lebanon,9
+LVA,Latvia,1
+BLR,Belarus,0
+LTU,Lithuania,0
+LBR,Liberia,0
+SVK,Slovakia,1
+LIE,Liechtenstein,1
+LBY,"Libyan Arab Jamahiriya",0
+MDG,Madagascar,0
+MTQ,Martinique,0
+MNG,Mongolia,0
+MSR,Montserrat,0
+MKD,"The former Yugoslav Republic of Macedonia",0
+MLI,Mali,0
+MAR,Morocco,6
+MUS,Mauritius,0
+MRT,Mauritania,0
+MLT,Malta,1
+OMN,Oman,0
+MDV,Maldives,0
+MEX,Mexico,107
+MYS,Malaysia,19
+MOZ,Mozambique,0
+MWI,Malawi,1
+NCL,"New Caledonia",0
+NIU,Niue,0
+NER,Niger,0
+ABW,Aruba,0
+AIA,Anguilla,0
+BEL,Belgium,59
+HKG,"Hong Kong",96
+MNP,"Northern Mariana Islands",0
+FRO,"Faroe Islands",0
+AND,Andorra,0
+GIB,Gibraltar,0
+IMN,"Isle of Man",0
+LUX,Luxembourg,7
+MAC,Macau,0
+MCO,Monaco,0
+PSE,Palestine,0
+MNE,Montenegro,1
+MYT,Mayotte,0
+ALA,"Åland Islands",0
+NFK,"Norfolk Island",0
+CCK,"Cocos (Keeling) Islands",0
+ATA,Antarctica,0
+BVT,"Bouvet Island",0
+ATF,"French Southern and Antarctic Lands",0
+HMD,"Heard Island and McDonald Islands",0
+IOT,"British Indian Ocean Territory",0
+CXR,"Christmas Island",0
+UMI,"United States Minor Outlying Islands",0
+VUT,Vanuatu,0
+NGA,Nigeria,26
+NLD,Netherlands,31
+NOR,Norway,17
+NPL,Nepal,2
+NRU,Nauru,0
+SUR,Suriname,0
+NIC,Nicaragua,1
+NZL,"New Zealand",17
+PRY,Paraguay,1
+PER,Peru,9
+PAK,Pakistan,23
+POL,Poland,24
+PAN,Panama,1
+PRT,Portugal,4
+PNG,"Papua New Guinea",0
+GNB,Guinea-Bissau,0
+QAT,Qatar,4
+REU,Reunion,0
+ROU,Romania,5
+MDA,"Republic of Moldova",0
+PHL,Philippines,45
+PRI,"Puerto Rico",0
+RUS,Russia,17
+RWA,Rwanda,0
+SAU,"Saudi Arabia",2
+KNA,"Saint Kitts and Nevis",0
+SYC,Seychelles,0
+ZAF,"South Africa",25
+LSO,Lesotho,0
+BWA,Botswana,1
+SEN,Senegal,2
+SVN,Slovenia,3
+SLE,"Sierra Leone",0
+SGP,Singapore,25
+SOM,Somalia,1
+ESP,Spain,155
+LCA,"Saint Lucia",0
+SDN,Sudan,1
+SWE,Sweden,26
+SYR,"Syrian Arab Republic",0
+CHE,Switzerland,15
+TTO,"Trinidad and Tobago",0
+THA,Thailand,51
+TJK,Tajikistan,0
+TKL,Tokelau,0
+TON,Tonga,0
+TGO,Togo,0
+STP,"Sao Tome and Principe",0
+TUN,Tunisia,0
+TUR,Turkey,79
+TUV,Tuvalu,0
+TKM,Turkmenistan,0
+TZA,"United Republic of Tanzania",0
+UGA,Uganda,1
+GBR,"United Kingdom",471
+UKR,Ukraine,2
+USA,"United States",2054
+BFA,"Burkina Faso",0
+URY,Uruguay,7
+UZB,Uzbekistan,0
+VCT,"Saint Vincent and the Grenadines",0
+VEN,Venezuela,3
+VGB,"British Virgin Islands",0
+VNM,Vietnam,4
+VIR,"United States Virgin Islands",0
+NAM,Namibia,1
+WLF,"Wallis and Futuna Islands",0
+WSM,Samoa,1
+SWZ,Swaziland,0
+YEM,Yemen,0
+ZMB,Zambia,0
+ZWE,Zimbabwe,2
+IDN,Indonesia,49
+GLP,Guadeloupe,0
+ANT,"Netherlands Antilles",0
+ARE,"United Arab Emirates",19
+TLS,Timor-Leste,0
+PCN,"Pitcairn Islands",0
+PLW,Palau,0
+MHL,"Marshall Islands",0
+SPM,"Saint Pierre and Miquelon",0
+SHN,"Saint Helena",0
+SMR,"San Marino",0
+TCA,"Turks and Caicos Islands",0
+ESH,"Western Sahara",0
+SRB,Serbia,4
+VAT,"Holy See (Vatican City)",0
+SJM,Svalbard,0
+MAF,"Saint Martin",0
+BLM,"Saint Barthelemy",0
+GGY,Guernsey,0
+JEY,Jersey,0
+SGS,"South Georgia South Sandwich Islands",0
+TWN,Taiwan,72
+KOR,"South Korea",133
+IRN,Iran,4

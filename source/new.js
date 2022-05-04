@@ -23,7 +23,7 @@
        }
 
     d3.csv('https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/new.csv',rowConverter).then(function(data) {
-
+console.log(data)
    let data1=data.filter(function(d){return d.name=="India"})
       data1.unshift({"listed_in":"India","name":"","amount":0})
   // stratify the data: reformatting for d3.js
