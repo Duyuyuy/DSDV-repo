@@ -20,26 +20,7 @@ const colorScale = d3.scaleThreshold()
 .domain([1,9, 20, 49, 100, 151,384,725,1820])
 .range(d3.schemeBlues[9]);
 
-var rowConverter = function(d) {
-  return {
-    State:d['Province/State'],
-    Country:d['Country/Region'],
-    Lat: parseFloat(d['Lat']),
-    Long: parseFloat(d['Long']),
-    case: parseFloat(d['4/5/20']),
 
-  };
- }
-//  var rowConverter = function(d) {
-//   return {
-//     State:d['Province/State'],
-//     Country:d['Country/Region'],
-//     Lat: parseFloat(d['Lat']),
-//     Long: parseFloat(d['Long']),
-//     case: parseFloat(d['4/5/20']),
-
-//   };
-//  }
 
 let value=function(d) {return {freq:d.freq, list_in:{name:d.list_in,amount:d.amount}}}
 let de=[];
