@@ -17,10 +17,8 @@ d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/output%20(1).
 
   // List of subgroups = header of the csv files = soil condition here
   const subgroups = data.columns.slice(1)
-console.log(subgroups)
   // List of groups = species here = value of the first column called group -> I show them on the X axis
   const groups = data.map(d => d.year_added)
-console.log(groups)
   // Add X axis
   const x = d3.scaleBand()
       .domain(groups)
