@@ -27,7 +27,7 @@ let de=[];
 // Load external data and boot
 Promise.all([
 d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/output%20(1).csv", function(d) {
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/freq.csv", function(d) {
 
 data.set(d.code, d.freq)
 
