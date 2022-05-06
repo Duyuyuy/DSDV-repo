@@ -13,7 +13,9 @@ const svg = d3.select("body")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
 // get the data
-d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/duration.csv").then( function(data) {
+Promise.all([
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/duration.csv"),
+.then( function(data) {
 
 // add the x Axis
 const x = d3.scaleLinear()
