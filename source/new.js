@@ -92,7 +92,6 @@ dropdownButton // Add a button
   .text(function (d) { return d; }) // text showed in the menu
   .attr("value", function (d) { return d; }) // corresponding value returned by the button
 
-// Initialize a circle
 
 
 function updateChart(data2) {
