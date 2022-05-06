@@ -15,29 +15,30 @@ const svg = d3.select("body")
 // get the data
 Promise.all([
 d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/duration.csv"),
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/season_count.csv")])
 .then( function(data) {
 
 // add the x Axis
-const x = d3.scaleLinear()
+let x = d3.scaleLinear()
           .domain([0, 200])
           .range([0, width]);
-svg.append("g")
+let xaxis=svg.append("g")
     .attr("transform", `translate(0, ${height})`)
     .call(d3.axisBottom(x));
 
 // add the y Axis
-const y = d3.scaleLinear()
+let y = d3.scaleLinear()
           .range([height, 0])
           .domain([0, 2500]);
-svg.append("g")
+let yaxis=svg.append("g")
     .call(d3.axisLeft(y));
 
 // Compute kernel density estimation
 const kde = kernelDensityEstimator(kernelEpanechnikov(1), x.ticks(100))
-const density =  kde( data.map(function(d){  return d.duration; }) )
+const density =  kde( data[0].map(function(d){  return d.duration; }) )
 
 // Plot the area
-svg.append("path")
+let curve= svg.append("path")
     .attr("class", "mypath")
     .datum(density)
     .attr("fill", "#69b3a2")
@@ -51,7 +52,63 @@ svg.append("path")
         .y(function(d) { return y(d[1]*100000); })
     );
 
-});
+
+
+    var allGroup = ['movie','TV_show'];
+
+// Initialize the button
+var dropdownButton = d3.select("body")
+.append('select')
+
+
+
+    dropdownButton 
+.selectAll('myOptions') 
+.data(allGroup) 
+.enter()
+.append('option')
+.text(function (d) { return d; }) // text showed in the menu
+.attr("value", function (d) { return d; })
+
+dropdownButton.on("change", function(d) {
+
+  var selectedOption = d3.select(this).property("value")
+  if (selectedOption === 'movie')  updateChart(data[0])
+    else updateChart(data[1]);
+ 
+})
+
+function updateChart(data) {
+   x = d3.scaleLinear()
+          .domain([0, 15])
+          .range([0, width]);
+          xaxis
+    .attr("transform", `translate(0, ${height})`)
+    .call(d3.axisBottom(x));
+
+// add the y Axis
+ y = d3.scaleLinear()
+          .range([height, 0])
+          .domain([0, 600]);
+          yaxis
+    .call(d3.axisLeft(y));
+             
+
+// Compute kernel density estimation
+const kde = kernelDensityEstimator(kernelEpanechnikov(1), x.ticks(100))
+const density =  kde( data.map(function(d){  return d['season_count']; }) )
+
+curve
+.datum(density)
+.transition()
+.duration(1000)
+.attr("d",  d3.line()
+  .curve(d3.curveBasis)
+    .x(function(d) { return x(d[0]); })
+    .y(function(d) { return y(d[1]*1000); })
+);
+}
+
 
 
 // Function to compute density
@@ -62,10 +119,14 @@ return function(V) {
   });
 };
 }
+
 function kernelEpanechnikov(k) {
 return function(v) {
   return Math.abs(v /= k) <= 1 ? 0.75 * (1 - v * v) / k : 0;
 };
 }
 
+
+// add the options to the button
+});
 }(d3))
