@@ -1,11 +1,11 @@
 (function (d3) { 
   'use strict';
-  const margin = {top: 30, right: 30, bottom: 30, left: 50},
-  width = 460 - margin.left - margin.right,
-  height = 400 - margin.top - margin.bottom;
+  const margin = {top: 30, right: 30, bottom: 30, left: 200},
+  width = 800 - margin.left - margin.right,
+  height = 700 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-const svg = d3.select("body")
+const svg4 = d3.select("#my_dataviz1")
 .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
@@ -22,7 +22,7 @@ d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/season_count.
 let x = d3.scaleLinear()
           .domain([0, 200])
           .range([0, width]);
-let xaxis=svg.append("g")
+let xaxis=svg4.append("g")
     .attr("transform", `translate(0, ${height})`)
     .call(d3.axisBottom(x));
 
@@ -30,7 +30,7 @@ let xaxis=svg.append("g")
 let y = d3.scaleLinear()
           .range([height, 0])
           .domain([0, 2500]);
-let yaxis=svg.append("g")
+let yaxis=svg4.append("g")
     .call(d3.axisLeft(y));
 
 // Compute kernel density estimation
@@ -38,7 +38,7 @@ const kde = kernelDensityEstimator(kernelEpanechnikov(1), x.ticks(100))
 const density =  kde( data[0].map(function(d){  return d.duration; }) )
 
 // Plot the area
-let curve= svg.append("path")
+let curve= svg4.append("path")
     .attr("class", "mypath")
     .datum(density)
     .attr("fill", "#69b3a2")
@@ -57,7 +57,7 @@ let curve= svg.append("path")
     var allGroup = ['movie','TV_show'];
 
 // Initialize the button
-var dropdownButton = d3.select("body")
+var dropdownButton = d3.select("#my_dataviz1")
 .append('select')
 
 
@@ -73,14 +73,14 @@ var dropdownButton = d3.select("body")
 dropdownButton.on("change", function(d) {
 
   var selectedOption = d3.select(this).property("value")
-  if (selectedOption === 'movie')  updateChart(data[0])
-    else updateChart(data[1]);
+  if (selectedOption === 'movie')  updateChart(data[0],200,2500,100000)
+    else updateChart(data[1],15,600,1000);
  
 })
 
-function updateChart(data) {
+function updateChart(data,X,Y,n) {
    x = d3.scaleLinear()
-          .domain([0, 15])
+          .domain([0, X])
           .range([0, width]);
           xaxis
     .attr("transform", `translate(0, ${height})`)
@@ -89,14 +89,14 @@ function updateChart(data) {
 // add the y Axis
  y = d3.scaleLinear()
           .range([height, 0])
-          .domain([0, 600]);
+          .domain([0, Y]);
           yaxis
     .call(d3.axisLeft(y));
              
 
 // Compute kernel density estimation
 const kde = kernelDensityEstimator(kernelEpanechnikov(1), x.ticks(100))
-const density =  kde( data.map(function(d){  return d['season_count']; }) )
+const density =  kde( data.map(function(d){  return d.duration; }) )
 
 curve
 .datum(density)
@@ -105,7 +105,7 @@ curve
 .attr("d",  d3.line()
   .curve(d3.curveBasis)
     .x(function(d) { return x(d[0]); })
-    .y(function(d) { return y(d[1]*1000); })
+    .y(function(d) { return y(d[1]*n); })
 );
 }
 

@@ -1,19 +1,22 @@
 (function (d3) { 
   'use strict';
-  var w = 1000;
-  var h = 1000;
-  var barPadding = 1;
-  var padding = 35;
-  var svg = d3.select("body")
-  .append("svg")
-  .attr("width", w)
-  .attr("height", h);
+  const margin = {top: 10, right: 10, bottom: 10, left: 10},
+  w = 1000 - margin.left - margin.right,
+  h = 1000 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+const svg4 = d3.select("#my_dataviz4")
+.append("svg")
+  .attr("width", w + margin.left + margin.right)
+  .attr("height", h + margin.top + margin.bottom)
+.append("g")
+  .attr("transform", `translate(${margin.left},${margin.top})`);
 
   const path = d3.geoPath();
 const projection = d3.geoMercator()
-.scale(70)
-.center([0,20])
-.translate([w / 2, h / 2]);
+.scale(100)
+.center([10,30])
+.translate([w / 3, h / 3]);
 
 const data = new Map();
 const colorScale = d3.scaleThreshold()
@@ -23,7 +26,6 @@ const colorScale = d3.scaleThreshold()
 
 
 let value=function(d) {return {freq:d.freq, list_in:{name:d.list_in,amount:d.amount}}}
-let de=[];
 // Load external data and boot
 Promise.all([
 d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
@@ -53,7 +55,7 @@ let mouseLeave = function(d) {
 }
 
 // Draw the map
-svg.append("g")
+svg4.append("g")
   .selectAll("path")
   .data(topo.features)
   .enter()
