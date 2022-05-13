@@ -1,11 +1,11 @@
 (function (d3) { 
     'use strict';
     const margin = {top: 10, right: 10, bottom: 10, left: 10},
-    w = 1400 - margin.left - margin.right,
-    h = 1000 - margin.top - margin.bottom;
+    w = 800 - margin.left - margin.right,
+    h = 700 - margin.top - margin.bottom;
   
   // append the svg object to the body of the page
-  const svg = d3.select("body")
+  const svg2 = d3.select("#my_dataviz2")
   .append("svg")
     .attr("width", w + margin.left + margin.right)
     .attr("height", h + margin.top + margin.bottom)
@@ -41,7 +41,7 @@ console.log(data)
     (root)
 
   // use this information to add rectangles:
-  svg
+  svg2
     .selectAll("rect")
     .data(root.leaves())
     .join("rect")
@@ -56,7 +56,7 @@ console.log(data)
         
 
   // and to add the text labels
-  svg
+  svg2
     .selectAll("text")
     .data(root.leaves())
     .join("text")
@@ -80,12 +80,12 @@ console.log(data)
       var unique = [...new Set(allGroup)];
 console.log(unique)
 // Initialize the button
-var dropdownButton = d3.select("body")
+var dropdownButton = d3.select("#my_dataviz2")
   .append('select')
 
-// add the options to the button
-dropdownButton // Add a button
-  .selectAll('myOptions') // Next 4 lines add 6 options = 6 colors
+
+dropdownButton 
+  .selectAll('myOptions') 
  	.data(unique)
   .enter()
 	.append('option')
@@ -109,7 +109,7 @@ function updateChart(data2) {
     (root)
 
   // use this information to add rectangles:
-  svg
+  svg2
     .selectAll("rect")
     .data(root.leaves())
     .join("rect")
@@ -123,7 +123,7 @@ function updateChart(data2) {
        });
 
   // and to add the text labels
-  svg
+  svg2
     .selectAll("text")
     .data(root.leaves())
     .join("text")
