@@ -5,13 +5,14 @@
     h = 700 - margin.top - margin.bottom;
   
   // append the svg object to the body of the page
-  const svg2 = d3.select("#my_dataviz2")
+  const svg2 = d3.select("#chart")
   .append("svg")
     .attr("width", w + margin.left + margin.right)
     .attr("height", h + margin.top + margin.bottom)
   .append("g")
     .attr("transform",
           `translate(${margin.left}, ${margin.top})`);
+
 
     var rowConverter = function(d) {
         return {
@@ -24,8 +25,8 @@
 
     d3.csv('https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/new.csv',rowConverter).then(function(data) {
 console.log(data)
-   let data1=data.filter(function(d){return d.name=="India"})
-      data1.unshift({"listed_in":"India","name":"","amount":0})
+   let data1=data.filter(function(d){return d.name=="South Korea"})
+      data1.unshift({"listed_in":"South Korea","name":"","amount":0})
   // stratify the data: reformatting for d3.js
   const root = d3.stratify()
     .id(function(d) { return d['listed_in']; })   // Name of the entity (column name is name in csv)
@@ -63,8 +64,8 @@ console.log(data)
       .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
       .attr("y", function(d){ return d.y0+15})
 
-      .text(function(d){ return (d.x1 - d.x0 >105) ? d.data.listed_in : ''; })
-      .attr("font-size", "15px")
+      .text(function(d){ return ((d.x1 - d.x0) >40 && (d.y1 - d.y0)>20 ) ? d.data['listed_in'] : ''; })
+      .attr("font-size", function(d){ return ((d.x1 - d.x0)>125 && (d.y1 - d.y0)>50) ? '16px' : (d.x1 - d.x0)/11+'px'})
       .attr("fill", "white")
       
 
@@ -80,7 +81,7 @@ console.log(data)
       var unique = [...new Set(allGroup)];
 console.log(unique)
 // Initialize the button
-var dropdownButton = d3.select("#my_dataviz2")
+var dropdownButton = d3.select("#chart")
   .append('select')
 
 
@@ -129,14 +130,13 @@ function updateChart(data2) {
     .join("text")
       .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
       .attr("y", function(d){ return d.y0+15})
-
-      .text(function(d){ return (d.x1 - d.x0 >105 && d.y1 - d.y0>40) ? d.data.listed_in : ''; })
-      .attr("font-size", "15px")
+      .text(function(d){ return ((d.x1 - d.x0) >40 && (d.y1 - d.y0)>20 ) ? d.data['listed_in'] : ''; })
+      .attr("font-size",function(d){ return ((d.x1 - d.x0)>125 && (d.y1 - d.y0)>50) ? '16px' : (d.x1 - d.x0)/11+'px'})
       .attr("fill", "white")
       
 }
 
-// When the button is changed, run the updateChart function
+// When the button is changed, run the updateChart functi
 dropdownButton.on("change", function(d) {
 
     // recover the option that has been chosen
@@ -150,3 +150,5 @@ dropdownButton.on("change", function(d) {
 
 
 }(d3))
+
+

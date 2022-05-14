@@ -161,7 +161,7 @@ d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/output%20(1).
           .data(dataReady)
           .join('g')
           .style("fill", d => myColor(d.name))
-    
+          .attr("class", d => d.name)
           .selectAll("myPoints")
           .data(d => d.values)
           .join("circle")
@@ -184,29 +184,16 @@ d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/output%20(1).
               .duration(150)
              });
     
-    
-        svg3
-          .selectAll("myLabels")
-          .data(dataReady)
-          .join('g')
-            .append("text")
-              .datum(d => { return {name: d.name, value: d.values[d.values.length - 1]}; }) // keep only the last value of each time series
-              .attr("transform",d => `translate(${x(d.value.year)-15},${y(d.value.value)-15})`) // Put the text at the position of the last point
-              .attr("x", 12) 
-              .text(d => d.name)
-              .style("fill", d => myColor(d.name))
-              .style("font-size", 15)
-    
               svg3
               .selectAll("myLegend")
               .data(dataReady)
               .join('g')
                 .append("text")
-                  .attr('x', (d,i) => 30 + i*60)
-                  .attr('y', 30)
+                  .attr('x', (d,i) => 40 + i*60)
+                  .attr('y', 40)
                   .text(d => d.name)
                   .style("fill", d => myColor(d.name))
-                  .style("font-size", 15)
+                  .style("font-size", 30)
                 .on("click", function(event,d){
                   let currentOpacity = d3.selectAll("." + d.name).style("opacity")
                   d3.selectAll("." + d.name).transition().style("opacity", currentOpacity == 1 ? 0:1)

@@ -29,7 +29,7 @@ let xaxis=svg4.append("g")
 // add the y Axis
 let y = d3.scaleLinear()
           .range([height, 0])
-          .domain([0, 2500]);
+          .domain([0, 2200]);
 let yaxis=svg4.append("g")
     .call(d3.axisLeft(y));
 
