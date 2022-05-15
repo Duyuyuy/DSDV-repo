@@ -13,7 +13,7 @@ const svg3 = d3.select("#my_dataviz3")
   .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/output%20(1).csv").then( function(data) {
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/output%20(1).csv").then( function(data) {
 
 //   // List of subgroups = header of the csv files = soil condition here
 //   const subgroups = data.columns.slice(1)

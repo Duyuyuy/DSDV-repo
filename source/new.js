@@ -23,7 +23,7 @@
         };
        }
 
-    d3.csv('https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/new.csv',rowConverter).then(function(data) {
+    d3.csv('https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/new.csv',rowConverter).then(function(data) {
 console.log(data)
    let data1=data.filter(function(d){return d.name=="South Korea"})
       data1.unshift({"listed_in":"South Korea","name":"","amount":0})
@@ -53,7 +53,9 @@ console.log(data)
       .style("stroke", "black")
       .attr("fill", function(d) {
         return "rgb(60," +(Math.round((d.y1-d.y0)*(d.x1-d.x0)) /600)+ ", " + (Math.round((d.y1-d.y0)*(d.x1-d.x0)) /620) + ")";
-       });
+       })
+       .transition()
+      .duration(1000);
         
 
   // and to add the text labels
@@ -121,7 +123,9 @@ function updateChart(data2) {
       .style("stroke", "black")
       .attr("fill", function(d) {
         return "rgb(60," +(Math.round((d.y1-d.y0)*(d.x1-d.x0)) /600)+ ", " + (Math.round((d.y1-d.y0)*(d.x1-d.x0)) /620) + ")";
-       });
+       })
+       .transition()
+      .duration(1000);
 
   // and to add the text labels
   svg2

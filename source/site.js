@@ -29,7 +29,7 @@ let value=function(d) {return {freq:d.freq, list_in:{name:d.list_in,amount:d.amo
 // Load external data and boot
 Promise.all([
 d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/freq.csv", function(d) {
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/freq.csv", function(d) {
 
 data.set(d.code, d.freq)
 

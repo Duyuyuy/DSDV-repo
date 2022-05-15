@@ -14,8 +14,8 @@ const svg4 = d3.select("#my_dataviz1")
 
 // get the data
 Promise.all([
-d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/duration.csv"),
-d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/season_count.csv")])
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/duration.csv"),
+d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/season_count.csv")])
 .then( function(data) {
 
 // add the x Axis
