@@ -82,16 +82,18 @@ function updateChart(data,X,Y,n) {
    x = d3.scaleLinear()
           .domain([0, X])
           .range([0, width]);
-          xaxis
+          xaxis.transition().duration(1000)
     .attr("transform", `translate(0, ${height})`)
-    .call(d3.axisBottom(x));
+    .call(d3.axisBottom(x))
+    ;
 
 // add the y Axis
  y = d3.scaleLinear()
           .range([height, 0])
           .domain([0, Y]);
-          yaxis
-    .call(d3.axisLeft(y));
+          yaxis.transition().duration(1000)
+    .call(d3.axisLeft(y))
+    ;
              
 
 // Compute kernel density estimation

@@ -20,8 +20,8 @@ const projection = d3.geoMercator()
 
 const data = new Map();
 const colorScale = d3.scaleThreshold()
-.domain([1,9, 20, 49, 100, 151,384,725,1820])
-.range(d3.schemeBlues[9]);
+.domain([1,9, 23, 63, 125, 228,472,749,1820])
+.range(["#fff0a9","#fee087","#fec965","#feab4b","#fd893c","#fa5c2e","#ec3023","#d31121","#af0225","#800026"]);
 
 
 
@@ -79,3 +79,4 @@ svg4.append("g")
   })
 
 }(d3))
+

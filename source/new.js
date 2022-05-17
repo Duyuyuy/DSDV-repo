@@ -40,7 +40,12 @@ console.log(data)
     .size([w, h-50])
     .padding(4)
     (root)
-
+    var group = [];
+    root.leaves().map(d=> group.push(d.id));
+   
+    const Coscale = d3.scaleThreshold()
+    .domain([20, 50, 75, 100, 150, 200,400,600,800,1000])
+    .range(d3.schemeRdPu[9]);
   // use this information to add rectangles:
   svg2
     .selectAll("rect")
@@ -51,9 +56,10 @@ console.log(data)
       .attr('width', function (d) { return d.x1 - d.x0; })
       .attr('height', function (d) { return d.y1 - d.y0; })
       .style("stroke", "black")
-      .attr("fill", function(d) {
-        return "rgb(60," +(Math.round((d.y1-d.y0)*(d.x1-d.x0)) /600)+ ", " + (Math.round((d.y1-d.y0)*(d.x1-d.x0)) /620) + ")";
-       })
+      .attr("fill", function(d){ return Coscale(Math.round((d.y1-d.y0)+(d.x1-d.x0)))
+      // function(d) {
+      //   return "rgb(60," +(Math.round((d.y1-d.y0)*(d.x1-d.x0)) /600)+ ", " + (Math.round((d.y1-d.y0)*(d.x1-d.x0)) /620) + ")";
+      })
        .transition()
       .duration(1000);
         
@@ -116,13 +122,15 @@ function updateChart(data2) {
     .selectAll("rect")
     .data(root.leaves())
     .join("rect")
+    .transition()
+    .duration(1000)
       .attr('x', function (d) { return d.x0; })
       .attr('y', function (d) { return d.y0; })
       .attr('width', function (d) { return d.x1 - d.x0; })
       .attr('height', function (d) { return d.y1 - d.y0; })
       .style("stroke", "black")
       .attr("fill", function(d) {
-        return "rgb(60," +(Math.round((d.y1-d.y0)*(d.x1-d.x0)) /600)+ ", " + (Math.round((d.y1-d.y0)*(d.x1-d.x0)) /620) + ")";
+        return Coscale(Math.round((d.y1-d.y0)+(d.x1-d.x0)))
        })
        .transition()
       .duration(1000);
