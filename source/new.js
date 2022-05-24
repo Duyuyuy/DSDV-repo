@@ -24,7 +24,6 @@
        }
 
     d3.csv('https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/new.csv',rowConverter).then(function(data) {
-console.log(data)
    let data1=data.filter(function(d){return d.name=="South Korea"})
       data1.unshift({"listed_in":"South Korea","name":"","amount":0})
   // stratify the data: reformatting for d3.js
@@ -87,8 +86,6 @@ console.log(data)
       data.map(d=> allGroup.push(d.name));
       
       var unique = [...new Set(allGroup)];
-console.log(unique)
-// Initialize the button
 var dropdownButton = d3.select("#chart")
   .append('select')
 
