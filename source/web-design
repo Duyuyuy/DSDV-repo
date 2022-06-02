@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .vl {
+            border-left: 6px solid green;
+            height: 500px;
+        }
+    </style>
+    <title>Khanh_Web Design</title>
+    <link rel="stylesheet" href="C:\VSCode\DSDV\finaldesign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class = "header">
+        <div class = "text-box1">
+            <h2>Inside The Content Strategy</h2>
+            <h1>#<span>netflix</span>everywhere</h1>
+        </div>
+        <div class ="text-box2">
+            <h3>SCROLL DOWN</h3>
+        </div>
+        <div class="line1"></div>
+    </section> 
+    <section class ="objective">
+        <div class="line2"></div>
+    </section>  
+</body>
+</html>
