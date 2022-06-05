@@ -15,92 +15,8 @@ const svg3 = d3.select("#my_dataviz3")
 
 d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/output%20(1).csv").then( function(data) {
 
-//   // List of subgroups = header of the csv files = soil condition here
-//   const subgroups = data.columns.slice(1)
-//   // List of groups = species here = value of the first column called group -> I show them on the X axis
+
   const groups = data.map(d => d.year_added)
-//   // Add X axis
-//   const x = d3.scaleBand()
-//       .domain(groups)
-//       .range([0, w])
-//       .padding([0.3])
-//   svg3.append("g")
-//   .attr("transform", `translate(0, ${h})`)
-//     .call(d3.axisBottom(x).tickSizeOuter(0));
-
-//   // Add Y axis
-//   const y = d3.scaleLinear()
-//     .domain([0, 1200])
-//     .range([ h, 0 ]);
-//   svg3.append("g")
-//     .call(d3.axisLeft(y));
-
-//   // color palette = one color per subgroup
-//   const color = d3.scaleOrdinal()
-//     .domain(subgroups)
-//     .range(d3.schemeSet2);
-
-//   //stack the data? --> stack per subgroup
-//   const stackedData = d3.stack()
-//     .keys(subgroups)
-//     (data)
-
-//     const tooltip = d3.select("#my_dataviz3")
-//     .append("div")
-//     .style("opacity", 0)
-//     .attr("class", "tooltip")
-//     .style("background-color", "white")
-//     .style("border", "solid")
-//     .style("border-width", "1px")
-//     .style("border-radius", "5px")
-//     .style("padding", "10px")
-
-//  let mouseleave =function (event,d) { // When user do not hover anymore
-
-//   // Back to normal opacity: 1
-//   d3.selectAll(".myRect")
-//   .style("opacity",1)
-// }
-
-// let mouseover =function (event,d) { // What happens when user hover a bar
-
-//   // what subgroup are we hovering?
-//   var subgroupName = d3.select(this.parentNode).datum().key
-//   var subgroupValue = d.data[subgroupName];
-// tooltip
-//     .html("status: " + subgroupName + "<br>" + "Value: " + subgroupValue)
-//     .style("opacity", 1)
-
-//   // Reduce opacity of all rect to 0.2
-//    d3.selectAll(".myRect").style("opacity", 0.2)
-
-//   // Highlight all rects of this subgroup with opacity 1. It is possible to select them since they have a specific class = their name.
-//    d3.selectAll("."+subgroupName).style("opacity",1)
-// }
-
-
-
-//   svg3.append("g")
-//     .selectAll("g")
-//     // Enter in the stack data = loop key per key = group per group
-//     .data(stackedData)
-//     .join("g")
-//       .attr("fill", d => color(d.key))
-//       .attr("class", d => "myRect " + d.key ) // Add a class to each subgroup: their name
-//       .selectAll("rect")
-//       // enter a second time = loop subgroup per subgroup to add all rectangles
-//       .data(d => d)
-//       .join("rect")
-//         .attr("x", d => x(d.data.year_added))
-//         .attr("y", d => y(d[1]))
-//         .attr("height", d => y(d[0]) - y(d[1]))
-//         .attr("width",x.bandwidth())
-//         .attr("stroke", "grey")
-//         .on("mouseover", mouseover)
-//         .on("mouseleave", mouseleave)
-
-
-
 
         const allGroup = ["old", "new"];
 
@@ -119,7 +35,7 @@ d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/output%2
     
         const myColor = d3.scaleOrdinal()
           .domain(allGroup)
-          .range(d3.schemeSet2);
+          .range(["#D62A28",'#262626']);
     
 
       var x = d3.scaleTime()
@@ -148,11 +64,15 @@ d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/output%2
         svg3.selectAll("myLines")
           .data(dataReady)
           .join("path")
+          .transition()
+          .delay(800)          
+          .duration(2000)
           .attr("class", d => d.name)
             .attr("d", d => line(d.values))
             .attr("stroke", d => myColor(d.name))
             .style("stroke-width", 2)
             .style("fill", "none")
+;
     
     
         svg3
