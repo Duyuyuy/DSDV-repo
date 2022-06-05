@@ -1,0 +1,1096 @@
+code,name,freq,listed_in,amount,type_i
+KOR,"South Korea",133,"International TV Shows",86,"TV Show"
+KOR,"South Korea",133,"Korean TV Shows",87,"TV Show"
+KOR,"South Korea",133,"Romantic TV Shows",46,"TV Show"
+IND,India,748,Comedies,215,Movie
+IND,India,748,Dramas,482,Movie
+IND,India,748,"International Movies",647,Movie
+BEL,Belgium,59,Dramas,29,Movie
+SEN,Senegal,2,Dramas,1,Movie
+FRA,France,227,Dramas,105,Movie
+BEL,Belgium,59,"Independent Movies",11,Movie
+SEN,Senegal,2,"Independent Movies",1,Movie
+FRA,France,227,"Independent Movies",45,Movie
+BEL,Belgium,59,"International Movies",43,Movie
+SEN,Senegal,2,"International Movies",1,Movie
+FRA,France,227,"International Movies",135,Movie
+NGA,Nigeria,26,Comedies,11,Movie
+NGA,Nigeria,26,"International Movies",25,Movie
+NGA,Nigeria,26,Thrillers,6,Movie
+ZAF,"South Africa",25,Dramas,9,Movie
+ZAF,"South Africa",25,"International Movies",11,Movie
+NGA,Nigeria,26,"Independent Movies",3,Movie
+USA,"United States",2054,"Reality TV",42,"TV Show"
+NGA,Nigeria,26,"Action & Adventure",2,Movie
+NGA,Nigeria,26,Dramas,18,Movie
+USA,"United States",2054,Docuseries,94,"TV Show"
+USA,"United States",2054,"Children & Family Movies",226,Movie
+USA,"United States",2054,Dramas,467,Movie
+JPN,Japan,161,"Anime Series",61,"TV Show"
+JPN,Japan,161,"International TV Shows",73,"TV Show"
+BRA,Brazil,56,"International TV Shows",11,"TV Show"
+BRA,Brazil,56,"Stand-Up Comedy & Talk Shows",1,"TV Show"
+BRA,Brazil,56,"TV Comedies",4,Movie
+USA,"United States",2054,"TV Comedies",80,Movie
+FRA,France,227,"International TV Shows",24,"TV Show"
+FRA,France,227,"TV Comedies",8,Movie
+FRA,France,227,"TV Dramas",15,Movie
+CAN,Canada,228,Dramas,50,Movie
+DEU,Germany,122,Dramas,50,Movie
+USA,"United States",2054,Thrillers,179,Movie
+CAN,Canada,228,Thrillers,28,Movie
+DEU,Germany,122,Thrillers,14,Movie
+USA,"United States",2054,"Action & Adventure",207,Movie
+IND,India,748,"Romantic Movies",76,Movie
+NOR,Norway,17,Dramas,8,Movie
+NOR,Norway,17,"Independent Movies",2,Movie
+CAN,Canada,228,"Independent Movies",29,Movie
+USA,"United States",2054,"Stand-Up Comedy",179,Movie
+MEX,Mexico,107,"International TV Shows",25,"TV Show"
+MEX,Mexico,107,"Spanish-Language TV Shows",26,"TV Show"
+MEX,Mexico,107,"Stand-Up Comedy & Talk Shows",1,"TV Show"
+USA,"United States",2054,"Crime TV Shows",52,"TV Show"
+USA,"United States",2054,"TV Dramas",72,Movie
+USA,"United States",2054,"TV Mysteries",16,"TV Show"
+IND,India,748,"Action & Adventure",112,Movie
+USA,"United States",2054,Comedies,384,Movie
+KOR,"South Korea",133,"Crime TV Shows",16,"TV Show"
+USA,"United States",2054,"Classic Movies",52,Movie
+CHN,China,111,"International TV Shows",27,"TV Show"
+CHN,China,111,"TV Comedies",9,Movie
+CHN,China,111,"TV Sci-Fi & Fantasy",2,"TV Show"
+ARE,"United Arab Emirates",19,"Action & Adventure",3,Movie
+ARE,"United Arab Emirates",19,"Sci-Fi & Fantasy",2,Movie
+USA,"United States",2054,"Sci-Fi & Fantasy",108,Movie
+USA,"United States",2054,"Anime Series",7,"TV Show"
+JPN,Japan,161,"Kids' TV",14,"TV Show"
+USA,"United States",2054,"Kids' TV",68,"TV Show"
+JPN,Japan,161,"Action & Adventure",34,Movie
+JPN,Japan,161,"Anime Features",40,Movie
+JPN,Japan,161,"International Movies",42,Movie
+BRA,Brazil,56,"TV Dramas",6,Movie
+USA,"United States",2054,Documentaries,391,Movie
+USA,"United States",2054,"Sports Movies",77,Movie
+USA,"United States",2054,"International TV Shows",36,"TV Show"
+SGP,Singapore,25,"International TV Shows",9,"TV Show"
+SGP,Singapore,25,"Reality TV",1,"TV Show"
+CAN,Canada,228,"Action & Adventure",26,Movie
+DEU,Germany,122,"Action & Adventure",17,Movie
+GBR,"United Kingdom",471,"Action & Adventure",47,Movie
+GBR,"United Kingdom",471,Dramas,107,Movie
+FRA,France,227,"Crime TV Shows",15,"TV Show"
+USA,"United States",2054,"Romantic Movies",121,Movie
+AUS,Australia,97,Dramas,29,Movie
+AUS,Australia,97,"Independent Movies",7,Movie
+AUS,Australia,97,"International Movies",25,Movie
+USA,"United States",2054,"Cult Movies",25,Movie
+USA,"United States",2054,"Independent Movies",267,Movie
+USA,"United States",2054,"Horror Movies",115,Movie
+DEU,Germany,122,"International TV Shows",13,"TV Show"
+DEU,Germany,122,"TV Dramas",7,Movie
+MEX,Mexico,107,Documentaries,10,Movie
+MEX,Mexico,107,"International Movies",45,Movie
+MEX,Mexico,107,"Sports Movies",3,Movie
+GBR,"United Kingdom",471,Comedies,52,Movie
+DEU,Germany,122,Comedies,24,Movie
+GBR,"United Kingdom",471,"International Movies",118,Movie
+DEU,Germany,122,"International Movies",60,Movie
+GBR,"United Kingdom",471,"Romantic Movies",20,Movie
+DEU,Germany,122,"Romantic Movies",5,Movie
+IND,India,748,"Independent Movies",109,Movie
+ITA,Italy,55,"Action & Adventure",1,Movie
+ITA,Italy,55,"Classic Movies",2,Movie
+USA,"United States",2054,"International Movies",103,Movie
+ITA,Italy,55,"International Movies",36,Movie
+GBR,"United Kingdom",471,"Children & Family Movies",18,Movie
+NZL,"New Zealand",17,"Children & Family Movies",2,Movie
+DEU,Germany,122,"Sports Movies",2,Movie
+GBR,"United Kingdom",471,"Sports Movies",17,Movie
+FRA,France,227,Docuseries,6,"TV Show"
+ARG,Argentina,61,"International TV Shows",7,"TV Show"
+ARG,Argentina,61,"Reality TV",1,"TV Show"
+ARG,Argentina,61,"Spanish-Language TV Shows",9,"TV Show"
+TWN,Taiwan,72,"International TV Shows",64,"TV Show"
+TWN,Taiwan,72,"TV Dramas",25,Movie
+TWN,Taiwan,72,"Teen TV Shows",1,"TV Show"
+BEL,Belgium,59,"Action & Adventure",9,Movie
+FIN,Finland,6,"Action & Adventure",1,Movie
+BEL,Belgium,59,Comedies,13,Movie
+FIN,Finland,6,Comedies,1,Movie
+FIN,Finland,6,"International Movies",5,Movie
+PER,Peru,9,"Horror Movies",2,Movie
+CHL,Chile,22,"Horror Movies",2,Movie
+ESP,Spain,155,"Horror Movies",9,Movie
+PER,Peru,9,"Independent Movies",1,Movie
+CHL,Chile,22,"Independent Movies",5,Movie
+ESP,Spain,155,"Independent Movies",17,Movie
+TWN,Taiwan,72,"Romantic TV Shows",47,"TV Show"
+COL,Colombia,30,Documentaries,2,Movie
+COL,Colombia,30,"International Movies",10,Movie
+ARG,Argentina,61,"Children & Family Movies",2,Movie
+ARG,Argentina,61,"Music & Musicals",3,Movie
+ESP,Spain,155,"Children & Family Movies",6,Movie
+ESP,Spain,155,Comedies,39,Movie
+IRL,Ireland,24,Comedies,4,Movie
+IRL,Ireland,24,"Romantic Movies",4,Movie
+IND,India,748,Documentaries,25,Movie
+MEX,Mexico,107,"Crime TV Shows",16,"TV Show"
+JPN,Japan,161,"Romantic Movies",3,Movie
+THA,Thailand,51,"International TV Shows",13,"TV Show"
+THA,Thailand,51,"TV Action & Adventure",2,"TV Show"
+THA,Thailand,51,"TV Dramas",7,Movie
+USA,"United States",2054,"Music & Musicals",71,Movie
+FRA,France,227,"Stand-Up Comedy",4,Movie
+THA,Thailand,51,"Romantic TV Shows",5,"TV Show"
+THA,Thailand,51,"TV Comedies",2,Movie
+MEX,Mexico,107,Docuseries,3,"TV Show"
+ARG,Argentina,61,Docuseries,1,"TV Show"
+USA,"United States",2054,"Spanish-Language TV Shows",16,"TV Show"
+USA,"United States",2054,"LGBTQ Movies",36,Movie
+CHN,China,111,"Romantic TV Shows",18,"TV Show"
+CHN,China,111,"Teen TV Shows",2,"TV Show"
+GBR,"United Kingdom",471,"British TV Shows",113,"TV Show"
+GBR,"United Kingdom",471,Docuseries,70,"TV Show"
+GBR,"United Kingdom",471,"International TV Shows",65,"TV Show"
+CAN,Canada,228,"Kids' TV",17,"TV Show"
+GBR,"United Kingdom",471,"Kids' TV",8,"TV Show"
+CAN,Canada,228,"TV Action & Adventure",2,"TV Show"
+GBR,"United Kingdom",471,"TV Action & Adventure",3,"TV Show"
+USA,"United States",2054,"TV Action & Adventure",21,"TV Show"
+CAN,Canada,228,"TV Comedies",12,Movie
+GBR,"United Kingdom",471,"TV Comedies",11,Movie
+FRA,France,227,"Action & Adventure",14,Movie
+IND,India,748,Thrillers,63,Movie
+JPN,Japan,161,"Crime TV Shows",11,"TV Show"
+JPN,Japan,161,"TV Dramas",18,Movie
+HKG,"Hong Kong",96,"Action & Adventure",64,Movie
+CHN,China,111,"Action & Adventure",47,Movie
+HKG,"Hong Kong",96,Dramas,27,Movie
+CHN,China,111,Dramas,26,Movie
+HKG,"Hong Kong",96,"International Movies",81,Movie
+CHN,China,111,"International Movies",59,Movie
+KOR,"South Korea",133,Dramas,23,Movie
+KOR,"South Korea",133,"International Movies",33,Movie
+KOR,"South Korea",133,"Romantic Movies",1,Movie
+CAN,Canada,228,Comedies,63,Movie
+CAN,Canada,228,"Romantic Movies",16,Movie
+NZL,"New Zealand",17,"Action & Adventure",3,Movie
+ZAF,"South Africa",25,"Action & Adventure",8,Movie
+CAN,Canada,228,"International Movies",42,Movie
+NZL,"New Zealand",17,"International Movies",7,Movie
+CAN,Canada,228,"Sci-Fi & Fantasy",15,Movie
+NZL,"New Zealand",17,"Sci-Fi & Fantasy",1,Movie
+ZAF,"South Africa",25,"Sci-Fi & Fantasy",2,Movie
+USA,"United States",2054,Movies,22,Movie
+CAN,Canada,228,"Children & Family Movies",40,Movie
+MEX,Mexico,107,"Horror Movies",4,Movie
+AUS,Australia,97,"Horror Movies",3,Movie
+JPN,Japan,161,"Children & Family Movies",7,Movie
+KOR,"South Korea",133,"Children & Family Movies",3,Movie
+JPN,Japan,161,Comedies,4,Movie
+KOR,"South Korea",133,Comedies,8,Movie
+GBR,"United Kingdom",471,"Reality TV",17,"TV Show"
+ESP,Spain,155,"International Movies",107,Movie
+USA,"United States",2054,"Science & Nature TV",24,"TV Show"
+LIE,Liechtenstein,1,"Classic Movies",1,Movie
+GBR,"United Kingdom",471,"Classic Movies",8,Movie
+LIE,Liechtenstein,1,Dramas,1,Movie
+ITA,Italy,55,Dramas,20,Movie
+LIE,Liechtenstein,1,"Romantic Movies",1,Movie
+ITA,Italy,55,"Romantic Movies",2,Movie
+HKG,"Hong Kong",96,"Classic Movies",1,Movie
+ITA,Italy,55,"LGBTQ Movies",1,Movie
+ITA,Italy,55,Comedies,6,Movie
+CAN,Canada,228,"Horror Movies",18,Movie
+FRA,France,227,"Horror Movies",7,Movie
+ESP,Spain,155,Thrillers,27,Movie
+FRA,France,227,Thrillers,21,Movie
+ESP,Spain,155,"Crime TV Shows",12,"TV Show"
+ESP,Spain,155,"International TV Shows",24,"TV Show"
+ESP,Spain,155,"Spanish-Language TV Shows",14,"TV Show"
+MEX,Mexico,107,Comedies,16,Movie
+MEX,Mexico,107,"Classic Movies",1,Movie
+MEX,Mexico,107,Dramas,30,Movie
+JPN,Japan,161,"Romantic TV Shows",12,"TV Show"
+JPN,Japan,161,"Reality TV",2,"TV Show"
+HKG,"Hong Kong",96,Comedies,30,Movie
+GBR,"United Kingdom",471,Documentaries,103,Movie
+USA,"United States",2054,"Faith & Spirituality",27,Movie
+GBR,"United Kingdom",471,"Faith & Spirituality",3,Movie
+AUS,Australia,97,"Action & Adventure",9,Movie
+ESP,Spain,155,"TV Dramas",7,Movie
+ARG,Argentina,61,"TV Dramas",2,Movie
+FRA,France,227,Comedies,35,Movie
+FRA,France,227,"Romantic Movies",16,Movie
+ARG,Argentina,61,"Stand-Up Comedy",7,Movie
+TWN,Taiwan,72,"Crime TV Shows",4,"TV Show"
+TWN,Taiwan,72,"TV Action & Adventure",3,"TV Show"
+ISR,Israel,20,Dramas,7,Movie
+ISR,Israel,20,"International Movies",12,Movie
+BRA,Brazil,56,"Crime TV Shows",3,"TV Show"
+TUR,Turkey,79,Dramas,17,Movie
+TUR,Turkey,79,"International Movies",60,Movie
+TUR,Turkey,79,Thrillers,4,Movie
+DEU,Germany,122,Documentaries,16,Movie
+ARG,Argentina,61,"Crime TV Shows",3,"TV Show"
+FRA,France,227,"Reality TV",1,"TV Show"
+ESP,Spain,155,"Reality TV",1,"TV Show"
+USA,"United States",2054,"TV Horror",10,"TV Show"
+CHE,Switzerland,15,Comedies,3,Movie
+CHE,Switzerland,15,Dramas,10,Movie
+CHE,Switzerland,15,"International Movies",11,Movie
+CHN,China,111,"TV Action & Adventure",5,"TV Show"
+CHN,China,111,"TV Mysteries",1,"TV Show"
+MYS,Malaysia,19,"Horror Movies",4,Movie
+SGP,Singapore,25,"Horror Movies",3,Movie
+MYS,Malaysia,19,"International Movies",13,Movie
+SGP,Singapore,25,"International Movies",12,Movie
+LUX,Luxembourg,7,"Action & Adventure",1,Movie
+LUX,Luxembourg,7,Dramas,6,Movie
+ESP,Spain,155,"Action & Adventure",5,Movie
+DEU,Germany,122,"Independent Movies",20,Movie
+AUT,Austria,7,Dramas,4,Movie
+EGY,Egypt,53,Dramas,18,Movie
+AUT,Austria,7,"Independent Movies",3,Movie
+EGY,Egypt,53,"Independent Movies",3,Movie
+AUT,Austria,7,"International Movies",5,Movie
+EGY,Egypt,53,"International Movies",43,Movie
+GBR,"United Kingdom",471,"Independent Movies",48,Movie
+LUX,Luxembourg,7,"International Movies",4,Movie
+LUX,Luxembourg,7,Thrillers,1,Movie
+BEL,Belgium,59,Thrillers,7,Movie
+ZAF,"South Africa",25,Comedies,3,Movie
+ZAF,"South Africa",25,"Romantic Movies",2,Movie
+TUR,Turkey,79,Comedies,45,Movie
+TUR,Turkey,79,"Romantic Movies",16,Movie
+IND,India,748,"Kids' TV",4,"TV Show"
+IND,India,748,"TV Comedies",13,Movie
+ESP,Spain,155,Dramas,59,Movie
+IDN,Indonesia,49,Dramas,31,Movie
+IDN,Indonesia,49,"Faith & Spirituality",3,Movie
+IDN,Indonesia,49,"International Movies",44,Movie
+CHN,China,111,"Children & Family Movies",8,Movie
+AUS,Australia,97,"Kids' TV",4,"TV Show"
+AUS,Australia,97,"TV Thrillers",1,Movie
+KOR,"South Korea",133,"Stand-Up Comedy",2,Movie
+GBR,"United Kingdom",471,"Horror Movies",19,Movie
+TUR,Turkey,79,"Crime TV Shows",8,"TV Show"
+TUR,Turkey,79,"International TV Shows",17,"TV Show"
+TUR,Turkey,79,"TV Dramas",16,Movie
+POL,Poland,24,Dramas,18,Movie
+POL,Poland,24,Thrillers,3,Movie
+GBR,"United Kingdom",471,Thrillers,40,Movie
+CAN,Canada,228,"Stand-Up Comedy",2,Movie
+JPN,Japan,161,Dramas,8,Movie
+JPN,Japan,161,Thrillers,2,Movie
+IDN,Indonesia,49,"Romantic Movies",13,Movie
+MEX,Mexico,107,"Kids' TV",3,"TV Show"
+KOR,"South Korea",133,"TV Action & Adventure",6,"TV Show"
+HKG,"Hong Kong",96,Documentaries,1,Movie
+TUR,Turkey,79,"Children & Family Movies",1,Movie
+AUS,Australia,97,"Crime TV Shows",5,"TV Show"
+AUS,Australia,97,Docuseries,8,"TV Show"
+AUS,Australia,97,"International TV Shows",18,"TV Show"
+CAN,Canada,228,"Reality TV",3,"TV Show"
+MEX,Mexico,107,"Romantic Movies",4,Movie
+DNK,Denmark,30,Dramas,11,Movie
+POL,Poland,24,"International Movies",16,Movie
+DNK,Denmark,30,"International Movies",17,Movie
+GBR,"United Kingdom",471,"Cult Movies",5,Movie
+IND,India,748,"International TV Shows",43,"TV Show"
+IND,India,748,"Romantic TV Shows",4,"TV Show"
+POL,Poland,24,Comedies,2,Movie
+POL,Poland,24,"Independent Movies",3,Movie
+NLD,Netherlands,31,Dramas,14,Movie
+NLD,Netherlands,31,"International Movies",26,Movie
+NLD,Netherlands,31,"Romantic Movies",2,Movie
+IND,India,748,"TV Dramas",18,Movie
+POL,Poland,1,"Classic Movies",1,Movie
+POL,Poland,24,"Classic Movies",2,Movie
+POL,Poland,1,Dramas,1,Movie
+POL,Poland,1,"International Movies",1,Movie
+POL,Poland,24,"Romantic Movies",2,Movie
+AUS,Australia,97,"Sci-Fi & Fantasy",5,Movie
+GBR,"United Kingdom",471,"Sci-Fi & Fantasy",22,Movie
+AUS,Australia,97,Thrillers,8,Movie
+IND,India,748,"Sports Movies",14,Movie
+POL,Poland,24,"Horror Movies",1,Movie
+KOR,"South Korea",133,"Kids' TV",3,"TV Show"
+DEU,Germany,122,"Children & Family Movies",9,Movie
+FRA,France,227,Documentaries,21,Movie
+FRA,France,227,"Sports Movies",9,Movie
+PER,Peru,9,"International Movies",8,Movie
+POL,Poland,24,"Cult Movies",1,Movie
+NGA,Nigeria,26,"Horror Movies",1,Movie
+MLT,Malta,1,"Action & Adventure",1,Movie
+MLT,Malta,1,Dramas,1,Movie
+GBR,"United Kingdom",471,"Stand-Up Comedy",16,Movie
+ITA,Italy,55,Thrillers,6,Movie
+DNK,Denmark,30,Thrillers,4,Movie
+IND,India,748,"TV Action & Adventure",4,"TV Show"
+USA,"United States",2054,"Anime Features",3,Movie
+USA,"United States",2054,"Teen TV Shows",11,"TV Show"
+VNM,Vietnam,4,"Action & Adventure",2,Movie
+VNM,Vietnam,4,Dramas,2,Movie
+VNM,Vietnam,4,"International Movies",4,Movie
+FRA,France,227,"Children & Family Movies",13,Movie
+IND,India,748,"Music & Musicals",89,Movie
+NGA,Nigeria,26,"Romantic Movies",3,Movie
+ESP,Spain,155,"British TV Shows",3,"TV Show"
+DEU,Germany,122,"British TV Shows",3,"TV Show"
+FRA,France,227,"British TV Shows",1,"TV Show"
+DEU,Germany,122,"Crime TV Shows",8,"TV Show"
+GBR,"United Kingdom",471,"Crime TV Shows",24,"TV Show"
+ESP,Spain,155,"TV Comedies",2,Movie
+ESP,Spain,155,Documentaries,16,Movie
+CHE,Switzerland,15,Documentaries,3,Movie
+KOR,"South Korea",133,"Anime Series",1,"TV Show"
+CAN,Canada,228,"Anime Series",1,"TV Show"
+FRA,France,227,"TV Horror",2,"TV Show"
+MEX,Mexico,107,"TV Dramas",7,Movie
+CHN,China,111,"Romantic Movies",9,Movie
+USA,"United States",2054,"TV Sci-Fi & Fantasy",15,"TV Show"
+IND,India,748,"Children & Family Movies",13,Movie
+CHN,China,111,Comedies,22,Movie
+FRA,France,227,"TV Thrillers",1,Movie
+PAK,Pakistan,23,Dramas,12,Movie
+PAK,Pakistan,23,"Independent Movies",4,Movie
+PAK,Pakistan,23,"International Movies",19,Movie
+CAN,Canada,228,"Cult Movies",5,Movie
+BRA,Brazil,56,Documentaries,11,Movie
+BRA,Brazil,56,"International Movies",29,Movie
+PRT,Portugal,4,Dramas,4,Movie
+BRA,Brazil,56,Dramas,20,Movie
+PRT,Portugal,4,"Independent Movies",2,Movie
+BRA,Brazil,56,"Independent Movies",9,Movie
+DNK,Denmark,30,"Independent Movies",7,Movie
+PRT,Portugal,4,"International Movies",3,Movie
+ARE,"United Arab Emirates",19,Comedies,5,Movie
+ARE,"United Arab Emirates",19,"International Movies",10,Movie
+EGY,Egypt,53,"Action & Adventure",7,Movie
+EGY,Egypt,53,Comedies,24,Movie
+CHN,China,111,"British TV Shows",1,"TV Show"
+CHN,China,111,"Kids' TV",1,"TV Show"
+JPN,Japan,161,"Teen TV Shows",4,"TV Show"
+COL,Colombia,30,Comedies,5,Movie
+CHL,Chile,22,"Children & Family Movies",1,Movie
+CHL,Chile,22,Comedies,6,Movie
+CHL,Chile,22,Dramas,9,Movie
+GBR,"United Kingdom",471,"TV Dramas",13,Movie
+GBR,"United Kingdom",471,"TV Sci-Fi & Fantasy",2,"TV Show"
+COL,Colombia,30,"Crime TV Shows",11,"TV Show"
+COL,Colombia,30,"International TV Shows",17,"TV Show"
+COL,Colombia,30,"Spanish-Language TV Shows",16,"TV Show"
+BRA,Brazil,56,"Faith & Spirituality",3,Movie
+TWN,Taiwan,72,"International Movies",7,Movie
+TWN,Taiwan,72,"Music & Musicals",1,Movie
+CHN,China,111,"Music & Musicals",1,Movie
+CAN,Canada,228,"International TV Shows",9,"TV Show"
+LUX,Luxembourg,7,"Sci-Fi & Fantasy",1,Movie
+POL,Poland,24,"Sci-Fi & Fantasy",1,Movie
+DEU,Germany,122,"Sci-Fi & Fantasy",6,Movie
+ISR,Israel,20,"Sci-Fi & Fantasy",1,Movie
+TUR,Turkey,79,"Horror Movies",6,Movie
+IND,India,748,"Horror Movies",28,Movie
+PHL,Philippines,45,"International Movies",44,Movie
+PHL,Philippines,45,"Romantic Movies",20,Movie
+ESP,Spain,155,"Romantic TV Shows",3,"TV Show"
+RUS,Russia,17,"Crime TV Shows",5,"TV Show"
+RUS,Russia,17,"International TV Shows",8,"TV Show"
+RUS,Russia,17,"TV Dramas",6,Movie
+KOR,"South Korea",133,"Sci-Fi & Fantasy",4,Movie
+CHN,China,111,"TV Dramas",16,Movie
+ESP,Spain,155,"TV Action & Adventure",1,"TV Show"
+TWN,Taiwan,72,"TV Thrillers",1,Movie
+BRA,Brazil,56,"Stand-Up Comedy",6,Movie
+USA,"United States",2054,"Stand-Up Comedy & Talk Shows",15,"TV Show"
+AUS,Australia,97,"TV Comedies",5,Movie
+LBN,Lebanon,9,"International TV Shows",7,"TV Show"
+LBN,Lebanon,9,"TV Dramas",7,Movie
+HKG,"Hong Kong",96,"International TV Shows",4,"TV Show"
+MYS,Malaysia,19,"International TV Shows",2,"TV Show"
+HKG,"Hong Kong",96,"Korean TV Shows",1,"TV Show"
+SGP,Singapore,25,"Korean TV Shows",1,"TV Show"
+MYS,Malaysia,19,"Korean TV Shows",1,"TV Show"
+HKG,"Hong Kong",96,"Romantic TV Shows",1,"TV Show"
+SGP,Singapore,25,"Romantic TV Shows",3,"TV Show"
+MYS,Malaysia,19,"Romantic TV Shows",1,"TV Show"
+KOR,"South Korea",133,"TV Dramas",15,Movie
+PHL,Philippines,45,Comedies,17,Movie
+PHL,Philippines,45,Dramas,24,Movie
+JPN,Japan,161,Documentaries,6,Movie
+NLD,Netherlands,31,"Children & Family Movies",1,Movie
+NLD,Netherlands,31,Comedies,4,Movie
+BGR,Bulgaria,7,"Action & Adventure",3,Movie
+PAK,Pakistan,23,"Crime TV Shows",1,"TV Show"
+PAK,Pakistan,23,"International TV Shows",4,"TV Show"
+PAK,Pakistan,23,"Romantic TV Shows",4,"TV Show"
+KOR,"South Korea",133,"Action & Adventure",15,Movie
+IND,India,748,Docuseries,5,"TV Show"
+AUS,Australia,97,Comedies,13,Movie
+AUS,Australia,97,"Romantic Movies",2,Movie
+THA,Thailand,51,"TV Mysteries",3,"TV Show"
+THA,Thailand,51,"TV Thrillers",1,Movie
+AUS,Australia,97,"Reality TV",5,"TV Show"
+SGP,Singapore,25,Dramas,6,Movie
+IND,India,748,"TV Shows",2,"TV Show"
+POL,Poland,24,"Action & Adventure",1,Movie
+PHL,Philippines,45,"Horror Movies",3,Movie
+BEL,Belgium,59,"Horror Movies",4,Movie
+ARG,Argentina,61,Dramas,26,Movie
+ARG,Argentina,61,"Independent Movies",6,Movie
+ARG,Argentina,61,"International Movies",41,Movie
+EGY,Egypt,53,"Music & Musicals",2,Movie
+IND,India,748,"TV Horror",6,"TV Show"
+IND,India,748,"TV Mysteries",3,"TV Show"
+CAN,Canada,228,Documentaries,31,Movie
+CAN,Canada,228,"Sports Movies",9,Movie
+FRA,France,227,"Kids' TV",21,"TV Show"
+GBR,"United Kingdom",471,"Romantic TV Shows",6,"TV Show"
+TWN,Taiwan,72,Dramas,4,Movie
+CHN,China,111,"Independent Movies",1,Movie
+TWN,Taiwan,72,"Independent Movies",1,Movie
+AUS,Australia,97,"British TV Shows",2,"TV Show"
+ITA,Italy,55,Documentaries,16,Movie
+ESP,Spain,155,"Music & Musicals",4,Movie
+GBR,"United Kingdom",471,"Music & Musicals",20,Movie
+CHE,Switzerland,15,Thrillers,1,Movie
+ARG,Argentina,61,Documentaries,5,Movie
+ARG,Argentina,61,"Sports Movies",4,Movie
+ARE,"United Arab Emirates",19,"Children & Family Movies",3,Movie
+CZE,"Czech Republic",14,"Action & Adventure",3,Movie
+CZE,"Czech Republic",14,"Sci-Fi & Fantasy",2,Movie
+CHN,China,111,"Sci-Fi & Fantasy",11,Movie
+CZE,"Czech Republic",14,"Children & Family Movies",1,Movie
+CZE,"Czech Republic",14,Comedies,2,Movie
+THA,Thailand,51,"Horror Movies",15,Movie
+THA,Thailand,51,"International Movies",35,Movie
+THA,Thailand,51,"Romantic Movies",9,Movie
+DOM,"Dominican Republic",2,Documentaries,1,Movie
+DOM,"Dominican Republic",2,"International Movies",2,Movie
+MEX,Mexico,107,"Action & Adventure",5,Movie
+MEX,Mexico,107,"Sci-Fi & Fantasy",2,Movie
+BRA,Brazil,56,"TV Mysteries",1,"TV Show"
+MEX,Mexico,107,"Stand-Up Comedy",16,Movie
+JPN,Japan,161,"Music & Musicals",3,Movie
+ISR,Israel,20,"Horror Movies",1,Movie
+ISR,Israel,20,"Independent Movies",4,Movie
+THA,Thailand,51,"Action & Adventure",7,Movie
+COL,Colombia,30,"Romantic TV Shows",2,"TV Show"
+EGY,Egypt,53,"Romantic Movies",5,Movie
+EGY,Egypt,53,Thrillers,2,Movie
+SWE,Sweden,26,Documentaries,8,Movie
+TWN,Taiwan,72,"TV Comedies",38,Movie
+ARE,"United Arab Emirates",19,Dramas,10,Movie
+RUS,Russia,17,"Action & Adventure",2,Movie
+RUS,Russia,17,Dramas,3,Movie
+RUS,Russia,17,"International Movies",6,Movie
+THA,Thailand,51,"Crime TV Shows",3,"TV Show"
+AUS,Australia,97,"TV Dramas",7,Movie
+IND,India,748,"Cult Movies",2,Movie
+BGR,Bulgaria,7,"Horror Movies",1,Movie
+BGR,Bulgaria,7,"Independent Movies",1,Movie
+DNK,Denmark,30,Documentaries,9,Movie
+NLD,Netherlands,31,Documentaries,9,Movie
+IND,India,748,"Sci-Fi & Fantasy",11,Movie
+AZE,Azerbaijan,1,"International TV Shows",1,"TV Show"
+AZE,Azerbaijan,1,"Romantic TV Shows",1,"TV Show"
+TUR,Turkey,79,"Romantic TV Shows",2,"TV Show"
+AZE,Azerbaijan,1,"TV Dramas",1,Movie
+KOR,"South Korea",133,Thrillers,11,Movie
+GBR,"United Kingdom",471,"Science & Nature TV",23,"TV Show"
+BRA,Brazil,56,Thrillers,2,Movie
+ARG,Argentina,61,Thrillers,5,Movie
+PER,Peru,9,Documentaries,3,Movie
+ISR,Israel,20,Documentaries,5,Movie
+USA,"United States",2054,"British TV Shows",15,"TV Show"
+USA,"United States",2054,"Classic & Cult TV",1,"TV Show"
+CHN,China,111,"Horror Movies",1,Movie
+CHN,China,111,Thrillers,4,Movie
+EGY,Egypt,53,"International TV Shows",9,"TV Show"
+EGY,Egypt,53,"Romantic TV Shows",2,"TV Show"
+EGY,Egypt,53,"TV Dramas",7,Movie
+CAN,Canada,228,"LGBTQ Movies",2,Movie
+THA,Thailand,51,Dramas,3,Movie
+SGP,Singapore,25,"TV Dramas",6,Movie
+BEL,Belgium,59,Documentaries,5,Movie
+SWE,Sweden,26,"International Movies",10,Movie
+ESP,Spain,155,Docuseries,6,"TV Show"
+ARG,Argentina,61,"Sci-Fi & Fantasy",1,Movie
+IND,India,748,"LGBTQ Movies",2,Movie
+CHL,Chile,22,"International Movies",13,Movie
+JOR,Jordan,6,Dramas,3,Movie
+JOR,Jordan,6,"International Movies",5,Movie
+JOR,Jordan,6,Thrillers,2,Movie
+ARE,"United Arab Emirates",19,Thrillers,4,Movie
+RUS,Russia,17,"Kids' TV",2,"TV Show"
+CAN,Canada,228,"TV Thrillers",1,Movie
+NZL,"New Zealand",17,Dramas,4,Movie
+NZL,"New Zealand",17,"Independent Movies",2,Movie
+JPN,Japan,161,"Sci-Fi & Fantasy",6,Movie
+MYS,Malaysia,19,Comedies,5,Movie
+MYS,Malaysia,19,"Romantic Movies",1,Movie
+USA,"United States",2054,"Romantic TV Shows",12,"TV Show"
+DEU,Germany,122,"Music & Musicals",5,Movie
+LBN,Lebanon,9,"Romantic TV Shows",1,"TV Show"
+TUR,Turkey,79,"Action & Adventure",5,Movie
+BGR,Bulgaria,7,"International Movies",3,Movie
+JPN,Japan,161,"TV Comedies",6,Movie
+TWN,Taiwan,72,Comedies,2,Movie
+JPN,Japan,161,"Cult Movies",1,Movie
+PAK,Pakistan,23,"Music & Musicals",3,Movie
+PRT,Portugal,4,"Romantic Movies",1,Movie
+BGR,Bulgaria,7,Thrillers,2,Movie
+DEU,Germany,122,"Kids' TV",2,"TV Show"
+ESP,Spain,155,"Sports Movies",3,Movie
+SGP,Singapore,25,"Crime TV Shows",2,"TV Show"
+USA,"United States",2054,"Korean TV Shows",1,"TV Show"
+CAN,Canada,228,Movies,3,Movie
+BRA,Brazil,56,Comedies,10,Movie
+DNK,Denmark,30,"Children & Family Movies",2,Movie
+COL,Colombia,30,Dramas,4,Movie
+COL,Colombia,30,"Independent Movies",2,Movie
+AUS,Australia,97,Documentaries,13,Movie
+AUS,Australia,97,"Music & Musicals",3,Movie
+AUS,Australia,97,"Classic Movies",2,Movie
+AUS,Australia,97,"Children & Family Movies",14,Movie
+CAN,Canada,228,"Crime TV Shows",4,"TV Show"
+CAN,Canada,228,"TV Dramas",5,Movie
+IND,India,748,"TV Sci-Fi & Fantasy",3,"TV Show"
+JPN,Japan,161,"Horror Movies",3,Movie
+LUX,Luxembourg,7,"Children & Family Movies",3,Movie
+FRA,France,227,"Sci-Fi & Fantasy",6,Movie
+NLD,Netherlands,31,"Independent Movies",3,Movie
+CHE,Switzerland,15,"International TV Shows",1,"TV Show"
+CHE,Switzerland,15,"TV Comedies",1,Movie
+CHE,Switzerland,15,"TV Dramas",1,Movie
+MNE,Montenegro,1,Dramas,1,Movie
+SRB,Serbia,4,Dramas,2,Movie
+SVN,Slovenia,3,Dramas,1,Movie
+HRV,Croatia,3,Dramas,2,Movie
+MNE,Montenegro,1,"International Movies",1,Movie
+SRB,Serbia,4,"International Movies",2,Movie
+SVN,Slovenia,3,"International Movies",2,Movie
+HRV,Croatia,3,"International Movies",2,Movie
+ITA,Italy,55,"Stand-Up Comedy",4,Movie
+GBR,"United Kingdom",471,"LGBTQ Movies",3,Movie
+HKG,"Hong Kong",96,"Romantic Movies",10,Movie
+ESP,Spain,155,"Sci-Fi & Fantasy",7,Movie
+VEN,Venezuela,3,Documentaries,3,Movie
+VEN,Venezuela,3,"International Movies",2,Movie
+JOR,Jordan,6,"International TV Shows",1,"TV Show"
+JOR,Jordan,6,"TV Dramas",1,Movie
+JOR,Jordan,6,"TV Mysteries",1,"TV Show"
+LBN,Lebanon,9,"TV Mysteries",1,"TV Show"
+DEU,Germany,122,"Faith & Spirituality",1,Movie
+ITA,Italy,55,"Faith & Spirituality",1,Movie
+CHE,Switzerland,15,"Faith & Spirituality",1,Movie
+MAR,Morocco,6,Documentaries,1,Movie
+MAR,Morocco,6,"International Movies",3,Movie
+NLD,Netherlands,31,"Music & Musicals",1,Movie
+SWE,Sweden,26,"Music & Musicals",2,Movie
+AUS,Australia,97,"Sports Movies",6,Movie
+IRL,Ireland,24,Dramas,9,Movie
+IRL,Ireland,24,"International Movies",12,Movie
+SWE,Sweden,26,Dramas,8,Movie
+TWN,Taiwan,72,"TV Horror",1,"TV Show"
+HRV,Croatia,3,Comedies,1,Movie
+SVN,Slovenia,3,Comedies,1,Movie
+CZE,"Czech Republic",14,"Independent Movies",1,Movie
+HRV,Croatia,3,"Independent Movies",2,Movie
+SVN,Slovenia,3,"Independent Movies",2,Movie
+CZE,"Czech Republic",14,"International Movies",8,Movie
+BWA,Botswana,1,Documentaries,1,Movie
+MEX,Mexico,107,"Romantic TV Shows",5,"TV Show"
+IDN,Indonesia,49,"Sci-Fi & Fantasy",2,Movie
+ISL,Iceland,6,Dramas,3,Movie
+ISL,Iceland,6,Thrillers,1,Movie
+NOR,Norway,17,Thrillers,3,Movie
+IDN,Indonesia,49,Comedies,6,Movie
+CZE,"Czech Republic",14,Dramas,4,Movie
+URY,Uruguay,7,Documentaries,3,Movie
+URY,Uruguay,7,"International Movies",6,Movie
+MYS,Malaysia,19,"Kids' TV",4,"TV Show"
+MYS,Malaysia,19,"TV Comedies",1,Movie
+TWN,Taiwan,72,"Horror Movies",1,Movie
+JPN,Japan,161,"TV Thrillers",2,Movie
+SGP,Singapore,25,"Stand-Up Comedy",1,Movie
+IND,India,748,"TV Thrillers",3,Movie
+IRN,Iran,4,"Horror Movies",1,Movie
+QAT,Qatar,4,"Horror Movies",1,Movie
+JOR,Jordan,6,"Horror Movies",1,Movie
+IRN,Iran,4,"International Movies",3,Movie
+QAT,Qatar,4,"International Movies",4,Movie
+IRN,Iran,4,Thrillers,1,Movie
+QAT,Qatar,4,Thrillers,2,Movie
+PAK,Pakistan,23,"TV Dramas",3,Movie
+COL,Colombia,30,"Romantic Movies",2,Movie
+SDN,Sudan,1,Dramas,1,Movie
+KEN,Kenya,1,Dramas,1,Movie
+SOM,Somalia,1,Dramas,1,Movie
+ESP,Spain,155,"Faith & Spirituality",2,Movie
+COL,Colombia,30,"Stand-Up Comedy",3,Movie
+SWE,Sweden,26,"International TV Shows",5,"TV Show"
+SWE,Sweden,26,"TV Comedies",2,Movie
+SWE,Sweden,26,"TV Dramas",3,Movie
+USA,"United States",2054,"TV Shows",3,"TV Show"
+AUT,Austria,7,Documentaries,3,Movie
+CAN,Canada,228,Docuseries,4,"TV Show"
+ISR,Israel,20,"International TV Shows",4,"TV Show"
+ISR,Israel,20,"TV Action & Adventure",1,"TV Show"
+ISR,Israel,20,"TV Dramas",1,Movie
+URY,Uruguay,7,Dramas,4,Movie
+IDN,Indonesia,49,"Horror Movies",10,Movie
+ARG,Argentina,61,Comedies,10,Movie
+ITA,Italy,55,"Kids' TV",4,"TV Show"
+MYS,Malaysia,19,Dramas,7,Movie
+MEX,Mexico,107,"Independent Movies",15,Movie
+ESP,Spain,155,"Romantic Movies",9,Movie
+DNK,Denmark,30,"Sports Movies",1,Movie
+SGP,Singapore,25,"Romantic Movies",1,Movie
+SWE,Sweden,26,"Kids' TV",1,"TV Show"
+ESP,Spain,155,"Classic Movies",1,Movie
+ARG,Argentina,61,"Classic Movies",1,Movie
+ARE,"United Arab Emirates",19,"Sports Movies",1,Movie
+CAN,Canada,228,"TV Horror",2,"TV Show"
+EGY,Egypt,53,"TV Mysteries",1,"TV Show"
+BRA,Brazil,56,Docuseries,2,"TV Show"
+BRA,Brazil,56,"Reality TV",1,"TV Show"
+KOR,"South Korea",133,"Stand-Up Comedy & Talk Shows",1,"TV Show"
+ITA,Italy,55,"TV Comedies",2,Movie
+MAR,Morocco,6,"Action & Adventure",1,Movie
+PAK,Pakistan,23,Comedies,7,Movie
+TUR,Turkey,79,"TV Action & Adventure",2,"TV Show"
+SWE,Sweden,26,"Crime TV Shows",4,"TV Show"
+SWE,Sweden,26,"Romantic TV Shows",1,"TV Show"
+AUS,Australia,97,Movies,3,Movie
+GTM,Guatemala,1,Dramas,1,Movie
+GTM,Guatemala,1,"Independent Movies",1,Movie
+GTM,Guatemala,1,"International Movies",1,Movie
+GBR,"United Kingdom",471,"TV Horror",2,"TV Show"
+GBR,"United Kingdom",471,"TV Thrillers",1,Movie
+MYS,Malaysia,19,"Action & Adventure",3,Movie
+THA,Thailand,51,Comedies,12,Movie
+THA,Thailand,51,Thrillers,2,Movie
+NOR,Norway,17,"Action & Adventure",2,Movie
+NOR,Norway,17,"International Movies",11,Movie
+HKG,"Hong Kong",96,"Children & Family Movies",1,Movie
+NZL,"New Zealand",17,"Kids' TV",4,"TV Show"
+NZL,"New Zealand",17,"TV Action & Adventure",1,"TV Show"
+AUS,Australia,97,"TV Action & Adventure",1,"TV Show"
+NZL,"New Zealand",17,"TV Sci-Fi & Fantasy",1,"TV Show"
+AUS,Australia,97,"TV Sci-Fi & Fantasy",1,"TV Show"
+IDN,Indonesia,49,"Action & Adventure",5,Movie
+ZAF,"South Africa",25,Documentaries,4,Movie
+DEU,Germany,122,Movies,2,Movie
+ESP,Spain,155,Movies,3,Movie
+GBR,"United Kingdom",471,Movies,3,Movie
+ITA,Italy,55,"British TV Shows",1,"TV Show"
+GRC,Greece,4,"British TV Shows",1,"TV Show"
+ITA,Italy,55,Docuseries,2,"TV Show"
+GRC,Greece,4,Docuseries,1,"TV Show"
+ITA,Italy,55,"International TV Shows",2,"TV Show"
+GRC,Greece,4,"International TV Shows",1,"TV Show"
+ESP,Spain,155,"Kids' TV",1,"TV Show"
+SWE,Sweden,26,"Cult Movies",1,Movie
+FRA,France,227,"Cult Movies",3,Movie
+DNK,Denmark,30,"Cult Movies",1,Movie
+SWE,Sweden,26,"Independent Movies",4,Movie
+SWE,Sweden,26,Thrillers,3,Movie
+TUR,Turkey,79,"TV Thrillers",2,Movie
+IRN,Iran,4,Dramas,3,Movie
+IRN,Iran,4,"Independent Movies",2,Movie
+CAN,Canada,228,"Music & Musicals",8,Movie
+IRL,Ireland,24,"Independent Movies",3,Movie
+TUR,Turkey,79,"TV Horror",1,"TV Show"
+PAK,Pakistan,23,"Horror Movies",1,Movie
+ZAF,"South Africa",25,"Faith & Spirituality",1,Movie
+MEX,Mexico,107,"Children & Family Movies",2,Movie
+BEL,Belgium,59,"Romantic Movies",2,Movie
+AUS,Australia,97,"LGBTQ Movies",2,Movie
+THA,Thailand,51,"LGBTQ Movies",3,Movie
+ISR,Israel,20,Thrillers,2,Movie
+JPN,Japan,161,"TV Action & Adventure",3,"TV Show"
+MEX,Mexico,107,Thrillers,2,Movie
+CZE,"Czech Republic",14,"Cult Movies",1,Movie
+KOR,"South Korea",133,"Cult Movies",1,Movie
+IND,India,748,"Faith & Spirituality",4,Movie
+IRQ,Iraq,2,Documentaries,2,Movie
+IRQ,Iraq,2,"International Movies",2,Movie
+ARE,"United Arab Emirates",19,"Horror Movies",1,Movie
+AUS,Australia,97,"Faith & Spirituality",1,Movie
+BEL,Belgium,59,"Cult Movies",1,Movie
+SGP,Singapore,25,"Independent Movies",1,Movie
+CHN,China,111,Documentaries,4,Movie
+CHL,Chile,22,"International TV Shows",3,"TV Show"
+CHL,Chile,22,"Spanish-Language TV Shows",3,"TV Show"
+CHL,Chile,22,"TV Dramas",2,Movie
+BRA,Brazil,56,"Children & Family Movies",3,Movie
+IND,India,748,"Teen TV Shows",1,"TV Show"
+ARG,Argentina,61,Movies,1,Movie
+MEX,Mexico,107,Movies,1,Movie
+AUS,Australia,97,"Science & Nature TV",5,"TV Show"
+NOR,Norway,17,"Children & Family Movies",1,Movie
+NOR,Norway,17,Documentaries,3,Movie
+NOR,Norway,17,"International TV Shows",4,"TV Show"
+NOR,Norway,17,"TV Dramas",3,Movie
+NOR,Norway,17,"TV Thrillers",1,Movie
+CHE,Switzerland,15,"Children & Family Movies",1,Movie
+BEL,Belgium,59,"Children & Family Movies",4,Movie
+VNM,Vietnam,4,Comedies,2,Movie
+BEL,Belgium,59,"LGBTQ Movies",2,Movie
+NLD,Netherlands,31,"LGBTQ Movies",2,Movie
+IND,India,748,"Crime TV Shows",5,"TV Show"
+BGD,Bangladesh,2,Dramas,2,Movie
+BGD,Bangladesh,2,"Independent Movies",2,Movie
+BGD,Bangladesh,2,"International Movies",2,Movie
+SGP,Singapore,25,Thrillers,3,Movie
+VNM,Vietnam,4,"Horror Movies",1,Movie
+VNM,Vietnam,4,Thrillers,1,Movie
+ISL,Iceland,6,"Crime TV Shows",1,"TV Show"
+ISL,Iceland,6,"International TV Shows",1,"TV Show"
+ISL,Iceland,6,"TV Dramas",1,Movie
+NLD,Netherlands,31,"Sci-Fi & Fantasy",2,Movie
+KOR,"South Korea",133,"TV Comedies",4,Movie
+PER,Peru,9,Comedies,3,Movie
+USA,"United States",2054,"TV Thrillers",5,Movie
+ARG,Argentina,61,"TV Horror",1,"TV Show"
+CHE,Switzerland,15,"Independent Movies",3,Movie
+ITA,Italy,55,"Independent Movies",2,Movie
+DEU,Germany,122,Docuseries,4,"TV Show"
+DEU,Germany,122,"Science & Nature TV",2,"TV Show"
+ESP,Spain,155,"Science & Nature TV",1,"TV Show"
+IRL,Ireland,24,"Children & Family Movies",3,Movie
+ESP,Spain,155,"LGBTQ Movies",3,Movie
+DEU,Germany,122,"Horror Movies",2,Movie
+NZL,"New Zealand",17,Documentaries,4,Movie
+NZL,"New Zealand",17,"Sports Movies",2,Movie
+MEX,Mexico,107,"TV Action & Adventure",2,"TV Show"
+FRA,France,227,"LGBTQ Movies",1,Movie
+TUR,Turkey,79,"Independent Movies",2,Movie
+LBN,Lebanon,9,"Children & Family Movies",1,Movie
+LBN,Lebanon,9,Dramas,2,Movie
+CHL,Chile,22,"Crime TV Shows",1,"TV Show"
+GBR,"United Kingdom",1,Documentaries,1,Movie
+GBR,"United Kingdom",1,"International Movies",1,Movie
+HKG,"Hong Kong",96,"TV Comedies",1,Movie
+HKG,"Hong Kong",96,"TV Dramas",3,Movie
+DNK,Denmark,30,"Action & Adventure",3,Movie
+PHL,Philippines,45,"Action & Adventure",5,Movie
+ROU,Romania,5,Comedies,3,Movie
+ROU,Romania,5,"International Movies",5,Movie
+HKG,"Hong Kong",96,"Crime TV Shows",2,"TV Show"
+MAR,Morocco,6,Dramas,4,Movie
+MAR,Morocco,6,"Faith & Spirituality",2,Movie
+ARG,Argentina,61,"Cult Movies",1,Movie
+ZWE,Zimbabwe,2,Documentaries,2,Movie
+NAM,Namibia,1,Documentaries,1,Movie
+PAK,Pakistan,23,"Romantic Movies",4,Movie
+ISR,Israel,20,Docuseries,3,"TV Show"
+ROU,Romania,5,"Romantic Movies",1,Movie
+HKG,"Hong Kong",96,Thrillers,2,Movie
+BRA,Brazil,56,"Action & Adventure",3,Movie
+IDN,Indonesia,49,"Sports Movies",4,Movie
+IDN,Indonesia,49,"Children & Family Movies",3,Movie
+CHN,China,111,"Cult Movies",1,Movie
+HKG,"Hong Kong",96,"Cult Movies",4,Movie
+ZAF,"South Africa",25,"Independent Movies",3,Movie
+ROU,Romania,5,"Sci-Fi & Fantasy",1,Movie
+ROU,Romania,5,Thrillers,1,Movie
+ZWE,Zimbabwe,2,"International Movies",1,Movie
+ITA,Italy,55,"Horror Movies",1,Movie
+THA,Thailand,51,"Sports Movies",2,Movie
+SGP,Singapore,25,"Action & Adventure",4,Movie
+SGP,Singapore,25,"Cult Movies",1,Movie
+DEU,Germany,122,"Cult Movies",1,Movie
+LVA,Latvia,1,Dramas,1,Movie
+FIN,Finland,6,Dramas,2,Movie
+LVA,Latvia,1,"International Movies",1,Movie
+ISR,Israel,20,"Crime TV Shows",3,"TV Show"
+ISR,Israel,20,"TV Comedies",1,Movie
+THA,Thailand,51,"Faith & Spirituality",3,Movie
+KOR,"South Korea",133,"Horror Movies",3,Movie
+TUR,Turkey,79,"TV Comedies",1,Movie
+SGP,Singapore,25,"Kids' TV",1,"TV Show"
+SGP,Singapore,25,"TV Comedies",2,Movie
+EGY,Egypt,53,"Horror Movies",1,Movie
+THA,Thailand,51,Documentaries,3,Movie
+URY,Uruguay,7,Comedies,1,Movie
+MWI,Malawi,1,"Children & Family Movies",1,Movie
+MWI,Malawi,1,Dramas,1,Movie
+MWI,Malawi,1,"Independent Movies",1,Movie
+DNK,Denmark,30,"Kids' TV",1,"TV Show"
+CHN,China,111,"Anime Features",1,Movie
+NOR,Norway,17,"Crime TV Shows",1,"TV Show"
+DNK,Denmark,30,"International TV Shows",3,"TV Show"
+DNK,Denmark,30,"TV Dramas",3,Movie
+SWE,Sweden,26,Comedies,4,Movie
+JPN,Japan,161,"Independent Movies",3,Movie
+CHL,Chile,22,"Stand-Up Comedy",3,Movie
+ITA,Italy,55,"Sports Movies",1,Movie
+IRL,Ireland,24,Documentaries,6,Movie
+JOR,Jordan,6,Comedies,1,Movie
+ARG,Argentina,61,"Action & Adventure",3,Movie
+ARG,Argentina,61,"Horror Movies",3,Movie
+MEX,Mexico,107,"Music & Musicals",1,Movie
+PAK,Pakistan,23,"Action & Adventure",2,Movie
+FRA,France,227,"Music & Musicals",2,Movie
+HUN,Hungary,3,"Action & Adventure",2,Movie
+HUN,Hungary,3,Dramas,2,Movie
+HUN,Hungary,3,"International Movies",2,Movie
+LKA,"Sri Lanka",1,Documentaries,1,Movie
+LKA,"Sri Lanka",1,"International Movies",1,Movie
+BEL,Belgium,59,"Music & Musicals",2,Movie
+POL,Poland,24,"Crime TV Shows",2,"TV Show"
+POL,Poland,24,"International TV Shows",3,"TV Show"
+POL,Poland,24,"TV Dramas",2,Movie
+HKG,"Hong Kong",96,"Sci-Fi & Fantasy",3,Movie
+TWN,Taiwan,72,"TV Sci-Fi & Fantasy",1,"TV Show"
+SRB,Serbia,4,"Action & Adventure",1,Movie
+SRB,Serbia,4,"Sci-Fi & Fantasy",2,Movie
+CZE,"Czech Republic",14,"Crime TV Shows",2,"TV Show"
+CZE,"Czech Republic",14,Docuseries,4,"TV Show"
+CZE,"Czech Republic",14,"International TV Shows",2,"TV Show"
+MAR,Morocco,6,"Independent Movies",1,Movie
+KHM,Cambodia,3,Dramas,1,Movie
+UGA,Uganda,1,Documentaries,1,Movie
+UKR,Ukraine,2,Documentaries,1,Movie
+UKR,Ukraine,2,"International Movies",1,Movie
+ROU,Romania,5,Dramas,2,Movie
+THA,Thailand,51,"TV Horror",1,"TV Show"
+ZAF,"South Africa",25,"British TV Shows",1,"TV Show"
+ZAF,"South Africa",25,"International TV Shows",2,"TV Show"
+AUS,Australia,97,"Romantic TV Shows",2,"TV Show"
+ZAF,"South Africa",25,"Romantic TV Shows",1,"TV Show"
+CHN,China,111,"Crime TV Shows",3,"TV Show"
+CUB,Cuba,1,"Crime TV Shows",1,"TV Show"
+CUB,Cuba,1,"International TV Shows",1,"TV Show"
+CUB,Cuba,1,"Spanish-Language TV Shows",1,"TV Show"
+CHN,China,111,"Faith & Spirituality",1,Movie
+BEL,Belgium,59,"Sci-Fi & Fantasy",1,Movie
+KOR,"South Korea",133,"Reality TV",1,"TV Show"
+ITA,Italy,55,"Children & Family Movies",2,Movie
+ITA,Italy,55,"Music & Musicals",3,Movie
+ARG,Argentina,61,"Romantic Movies",3,Movie
+CHL,Chile,22,Thrillers,1,Movie
+BEL,Belgium,59,"Crime TV Shows",4,"TV Show"
+BEL,Belgium,59,"International TV Shows",5,"TV Show"
+BEL,Belgium,59,"TV Dramas",4,Movie
+CAN,Canada,228,"TV Mysteries",1,"TV Show"
+CAN,Canada,228,"TV Sci-Fi & Fantasy",1,"TV Show"
+NOR,Norway,17,Docuseries,1,"TV Show"
+NOR,Norway,17,"Science & Nature TV",1,"TV Show"
+ECU,Ecuador,1,Documentaries,1,Movie
+BMU,Bermuda,1,Documentaries,1,Movie
+GHA,Ghana,1,Dramas,1,Movie
+GHA,Ghana,1,"Independent Movies",1,Movie
+GHA,Ghana,1,"International Movies",1,Movie
+PER,Peru,9,"Romantic Movies",1,Movie
+IRL,Ireland,24,"Horror Movies",2,Movie
+COL,Colombia,30,"Sci-Fi & Fantasy",1,Movie
+BGR,Bulgaria,7,"Sci-Fi & Fantasy",1,Movie
+NLD,Netherlands,31,"Kids' TV",1,"TV Show"
+IRL,Ireland,24,"Crime TV Shows",1,"TV Show"
+IRL,Ireland,24,"International TV Shows",2,"TV Show"
+IRL,Ireland,24,"TV Dramas",1,Movie
+TWN,Taiwan,72,"Romantic Movies",2,Movie
+ISR,Israel,20,Comedies,2,Movie
+ISR,Israel,20,"Faith & Spirituality",1,Movie
+COL,Colombia,30,"TV Dramas",4,Movie
+QAT,Qatar,4,Dramas,3,Movie
+QAT,Qatar,4,"Independent Movies",1,Movie
+HKG,"Hong Kong",96,"Sports Movies",1,Movie
+PRY,Paraguay,1,"Action & Adventure",1,Movie
+PRY,Paraguay,1,"International Movies",1,Movie
+CHL,Chile,22,"Action & Adventure",1,Movie
+NLD,Netherlands,31,"Action & Adventure",1,Movie
+EGY,Egypt,53,"Children & Family Movies",1,Movie
+CAN,Canada,228,"Faith & Spirituality",2,Movie
+POL,Poland,24,Docuseries,1,"TV Show"
+HUN,Hungary,3,"Sci-Fi & Fantasy",1,Movie
+TUR,Turkey,79,"TV Mysteries",1,"TV Show"
+ISL,Iceland,6,"Independent Movies",2,Movie
+ISL,Iceland,6,"Sci-Fi & Fantasy",1,Movie
+ARE,"United Arab Emirates",19,"Independent Movies",2,Movie
+AUS,Australia,97,"Stand-Up Comedy",1,Movie
+FRA,France,227,"TV Mysteries",2,"TV Show"
+KAZ,Kazakhstan,1,"Children & Family Movies",1,Movie
+MEX,Mexico,107,"Reality TV",1,"TV Show"
+SVK,Slovakia,1,Dramas,1,Movie
+SVK,Slovakia,1,"International Movies",1,Movie
+PER,Peru,9,"Sports Movies",1,Movie
+CHL,Chile,22,"Sports Movies",1,Movie
+THA,Thailand,51,"Music & Musicals",1,Movie
+HKG,"Hong Kong",96,"Independent Movies",3,Movie
+IRL,Ireland,24,"Sports Movies",2,Movie
+CYM,"Cayman Islands",1,"Children & Family Movies",1,Movie
+CYM,"Cayman Islands",1,Comedies,1,Movie
+DNK,Denmark,30,Comedies,1,Movie
+NOR,Norway,17,Comedies,1,Movie
+ISL,Iceland,6,"International Movies",3,Movie
+JPN,Japan,161,"TV Shows",1,"TV Show"
+JPN,Japan,161,"TV Horror",1,"TV Show"
+EGY,Egypt,53,"TV Comedies",2,Movie
+IND,India,748,"Classic Movies",2,Movie
+CZE,"Czech Republic",14,"British TV Shows",1,"TV Show"
+CZE,"Czech Republic",14,"Science & Nature TV",1,"TV Show"
+PER,Peru,9,Dramas,1,Movie
+DEU,Germany,122,"Stand-Up Comedy",2,Movie
+TWN,Taiwan,72,"Action & Adventure",2,Movie
+DNK,Denmark,30,"TV Comedies",1,Movie
+FIN,Finland,6,"Crime TV Shows",1,"TV Show"
+FIN,Finland,6,"International TV Shows",1,"TV Show"
+FIN,Finland,6,"TV Dramas",1,Movie
+TUR,Turkey,79,"Music & Musicals",1,Movie
+JPN,Japan,161,"TV Mysteries",3,"TV Show"
+AUS,Australia,97,"Cult Movies",1,Movie
+GRC,Greece,4,Dramas,2,Movie
+GRC,Greece,4,"Independent Movies",2,Movie
+CZE,"Czech Republic",14,Thrillers,1,Movie
+TWN,Taiwan,72,"TV Mysteries",1,"TV Show"
+ISL,Iceland,6,"Action & Adventure",1,Movie
+QAT,Qatar,4,Comedies,1,Movie
+LBN,Lebanon,9,Comedies,1,Movie
+LBN,Lebanon,9,"International Movies",1,Movie
+BEL,Belgium,59,"TV Sci-Fi & Fantasy",1,"TV Show"
+FRA,France,227,"TV Sci-Fi & Fantasy",1,"TV Show"
+IRL,Ireland,24,"British TV Shows",1,"TV Show"
+IRL,Ireland,24,"TV Action & Adventure",1,"TV Show"
+GRC,Greece,4,Comedies,1,Movie
+GRC,Greece,4,"International Movies",1,Movie
+GRC,Greece,4,"Romantic Movies",1,Movie
+FIN,Finland,6,Documentaries,2,Movie
+IDN,Indonesia,49,Documentaries,1,Movie
+ZAF,"South Africa",25,"TV Dramas",1,Movie
+ITA,Italy,55,"TV Dramas",2,Movie
+DNK,Denmark,30,"Crime TV Shows",1,"TV Show"
+MYS,Malaysia,19,"TV Dramas",1,Movie
+SWE,Sweden,26,"Action & Adventure",1,Movie
+THA,Thailand,51,Docuseries,1,"TV Show"
+LBN,Lebanon,9,"Crime TV Shows",2,"TV Show"
+BRA,Brazil,56,"Romantic TV Shows",1,"TV Show"
+URY,Uruguay,7,"Sports Movies",1,Movie
+CAN,Canada,228,"Science & Nature TV",2,"TV Show"
+NZL,"New Zealand",17,Docuseries,1,"TV Show"
+NZL,"New Zealand",17,"International TV Shows",1,"TV Show"
+PHL,Philippines,45,"International TV Shows",1,"TV Show"
+PHL,Philippines,45,"TV Dramas",1,Movie
+RUS,Russia,17,Documentaries,2,Movie
+RUS,Russia,17,"Sports Movies",1,Movie
+ISR,Israel,20,"Sports Movies",1,Movie
+PRT,Portugal,4,"Sports Movies",1,Movie
+NLD,Netherlands,31,"International TV Shows",2,"TV Show"
+NLD,Netherlands,31,"TV Dramas",2,Movie
+ISL,Iceland,6,"Horror Movies",1,Movie
+SAU,"Saudi Arabia",2,Comedies,1,Movie
+SAU,"Saudi Arabia",2,"International Movies",1,Movie
+SAU,"Saudi Arabia",2,"Romantic Movies",1,Movie
+KOR,"South Korea",133,"Independent Movies",2,Movie
+POL,Poland,24,Documentaries,1,Movie
+SVN,Slovenia,3,"Horror Movies",1,Movie
+SRB,Serbia,4,"Horror Movies",1,Movie
+SRB,Serbia,4,"Independent Movies",1,Movie
+SVN,Slovenia,3,"Sci-Fi & Fantasy",1,Movie
+BRA,Brazil,56,"Science & Nature TV",1,"TV Show"
+AUT,Austria,7,"Sports Movies",1,Movie
+LUX,Luxembourg,7,"Independent Movies",1,Movie
+JPN,Japan,161,"Stand-Up Comedy & Talk Shows",1,"TV Show"
+FRA,France,227,"TV Action & Adventure",1,"TV Show"
+BEL,Belgium,59,"TV Mysteries",1,"TV Show"
+MEX,Mexico,107,"LGBTQ Movies",1,Movie
+MEX,Mexico,107,"TV Comedies",1,Movie
+TWN,Taiwan,72,Documentaries,1,Movie
+TWN,Taiwan,72,"Sports Movies",1,Movie
+KOR,"South Korea",133,"Music & Musicals",1,Movie
+GBR,"United Kingdom",471,"Stand-Up Comedy & Talk Shows",1,"TV Show"
+GEO,Georgia,2,Dramas,1,Movie
+GEO,Georgia,2,"Independent Movies",1,Movie
+GEO,Georgia,2,"International Movies",2,Movie
+CZE,"Czech Republic",14,Documentaries,1,Movie
+CZE,"Czech Republic",14,"Sports Movies",1,Movie
+JOR,Jordan,6,Documentaries,1,Movie
+ARM,Armenia,1,Documentaries,1,Movie
+ARM,Armenia,1,"International Movies",1,Movie
+DOM,"Dominican Republic",2,"Horror Movies",1,Movie
+DOM,"Dominican Republic",2,Thrillers,1,Movie
+BRA,Brazil,56,"LGBTQ Movies",2,Movie
+IRL,Ireland,24,"Action & Adventure",1,Movie
+ALB,Albania,1,Dramas,1,Movie
+ALB,Albania,1,"International Movies",1,Movie
+KHM,Cambodia,3,"Action & Adventure",1,Movie
+KHM,Cambodia,3,"International Movies",1,Movie
+NIC,Nicaragua,1,Documentaries,1,Movie
+IND,India,748,"Stand-Up Comedy",1,Movie
+PHL,Philippines,45,"Sports Movies",1,Movie
+SWE,Sweden,26,"Romantic Movies",1,Movie
+DNK,Denmark,30,"Romantic Movies",1,Movie
+NOR,Norway,17,"Romantic Movies",1,Movie
+BGR,Bulgaria,7,"Children & Family Movies",1,Movie
+EGY,Egypt,53,Documentaries,1,Movie
+NZL,"New Zealand",17,Comedies,1,Movie
+PAN,Panama,1,Documentaries,1,Movie
+PAN,Panama,1,"Sports Movies",1,Movie
+JPN,Japan,161,"Sports Movies",1,Movie
+IND,India,748,"Reality TV",1,"TV Show"
+ARE,"United Arab Emirates",19,Documentaries,2,Movie
+IDN,Indonesia,49,"International TV Shows",1,"TV Show"
+IDN,Indonesia,49,"Romantic TV Shows",1,"TV Show"
+IDN,Indonesia,49,"TV Dramas",1,Movie
+PHL,Philippines,45,Thrillers,1,Movie
+RUS,Russia,17,Docuseries,1,"TV Show"
+RUS,Russia,17,"Science & Nature TV",1,"TV Show"
+FRA,France,227,"Science & Nature TV",1,"TV Show"
+PRT,Portugal,4,Comedies,1,Movie
+EGY,Egypt,53,"TV Sci-Fi & Fantasy",1,"TV Show"
+EGY,Egypt,53,"Crime TV Shows",1,"TV Show"
+CHE,Switzerland,15,"Action & Adventure",1,Movie
+CHE,Switzerland,15,"Sci-Fi & Fantasy",1,Movie
+ARE,"United Arab Emirates",19,"Crime TV Shows",1,"TV Show"
+ARE,"United Arab Emirates",19,"International TV Shows",1,"TV Show"
+ARE,"United Arab Emirates",19,"TV Dramas",1,Movie
+SEN,Senegal,2,Documentaries,1,Movie
+KHM,Cambodia,3,"Children & Family Movies",1,Movie
+KHM,Cambodia,3,Comedies,1,Movie
+ZAF,"South Africa",25,"Crime TV Shows",2,"TV Show"
+ITA,Italy,55,"Crime TV Shows",1,"TV Show"
+ZAF,"South Africa",25,Docuseries,1,"TV Show"
+GEO,Georgia,2,Documentaries,1,Movie
+NLD,Netherlands,31,"Stand-Up Comedy",1,Movie
+IND,India,748,"Stand-Up Comedy & Talk Shows",1,"TV Show"
+FIN,Finland,6,"Sports Movies",1,Movie
+COL,Colombia,30,Docuseries,1,"TV Show"
+NOR,Norway,17,"TV Comedies",1,Movie
+BRA,Brazil,56,"Romantic Movies",1,Movie
+ZAF,"South Africa",25,Thrillers,1,Movie
+ARG,Argentina,61,"Kids' TV",1,"TV Show"
+URY,Uruguay,7,"Independent Movies",1,Movie
+RUS,Russia,17,"Children & Family Movies",1,Movie
+KOR,"South Korea",133,Documentaries,2,Movie
+WSM,Samoa,1,Documentaries,1,Movie
+WSM,Samoa,1,"Sports Movies",1,Movie
+UKR,Ukraine,2,"International TV Shows",1,"TV Show"
+UKR,Ukraine,2,"TV Comedies",1,Movie
+RUS,Russia,17,"Romantic TV Shows",1,"TV Show"
+DEU,Germany,122,"TV Comedies",2,Movie
+JPN,Japan,161,"Classic Movies",2,Movie
+ZAF,"South Africa",25,"Horror Movies",1,Movie
+BRA,Brazil,56,"Sports Movies",1,Movie
+ITA,Italy,55,"Spanish-Language TV Shows",1,"TV Show"
+NPL,Nepal,2,Comedies,2,Movie
+NPL,Nepal,2,Dramas,1,Movie
+NPL,Nepal,2,"International Movies",2,Movie
+DEU,Germany,122,"LGBTQ Movies",1,Movie
+FRA,France,227,"Faith & Spirituality",1,Movie
+IRL,Ireland,24,"Faith & Spirituality",1,Movie
+MEX,Mexico,107,"Classic & Cult TV",2,"TV Show"
+TUR,Turkey,79,"Sports Movies",1,Movie
+JPN,Japan,161,Movies,2,Movie
+ZAF,"South Africa",25,"TV Comedies",1,Movie
+NLD,Netherlands,31,"Crime TV Shows",1,"TV Show"
+HUN,Hungary,3,"Romantic Movies",1,Movie
+KOR,"South Korea",133,Movies,1,Movie
+FRA,France,227,Movies,1,Movie
+SAU,"Saudi Arabia",2,"International TV Shows",1,"TV Show"
+SAU,"Saudi Arabia",2,"TV Dramas",1,Movie
+NPL,Nepal,2,"Action & Adventure",1,Movie
+ESP,Spain,155,"Teen TV Shows",1,"TV Show"
