@@ -115,11 +115,14 @@ function updateChart(data,X,n,k,color,color2,m) {
     svg4.selectAll("rect")
     .data(bins)
     .join("rect")
+    .transition()
+    .duration(2000)
     .attr("x", 1)
     .attr("transform", function(d) { return `translate(${x(d.x0)} , ${y(d.length)})`})
         .attr("width", function(d) { return x(d.x1) - x(d.x0) })
         .attr("height", function(d) { return height - y(d.length); })
         .style("fill", color)
+        
 const kde = kernelDensityEstimator(kernelEpanechnikov(k), x.ticks(80))
 const density =  kde( data.map(function(d){  return d.duration; }) )
 

@@ -103,24 +103,30 @@ d3.csv("https://raw.githubusercontent.com/casihoicho/DSDV-repo/Duy/data/output%2
               .transition()
               .duration(150)
              });
-    
-              svg3
+
+              
+                  svg3
               .selectAll("myLegend")
               .data(dataReady)
               .join('g')
                 .append("text")
-                  .attr('x', (d,i) => 40 + i*60)
+                  .attr('x', (d,i) => 40 + i*70)
                   .attr('y', 40)
-                  .text(d => d.name)
+                  .text(d => d.name.toUpperCase())
                   .style("fill", d => myColor(d.name))
-                  .style("font-size", 30)
+                  .style("font-size", 28)
                 .on("click", function(event,d){
-                  let currentOpacity = d3.selectAll("." + d.name).style("opacity")
+                let currentOpacity = d3.selectAll("." + d.name).style("opacity")
+                console.log(currentOpacity)
                   d3.selectAll("." + d.name).transition().style("opacity", currentOpacity == 1 ? 0:1)
+
+
+
+
         
-              
+                 
     })
-    
+
 
 })
 }(d3))

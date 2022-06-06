@@ -76,13 +76,15 @@ data.set(d.code, d.freq)
 var mousemove = function(event,d) {
   d3.select(this)
   .append("title")
+  .attr("dy", "0em")
   .text(function(d) {
-    return d.properties.name + ", " +d.total ;
-  });}
+    return "Country: " +d.properties.name +"\n"+ "Number of release: " +d.total})
+}
 
 let mouseLeave = function(event, d) {
 
   Tooltip
+
   .transition()
   .duration(200)
   .style("opacity", 0)
@@ -115,7 +117,7 @@ svg4.append("g")
     .style("stroke", "transparent")
     .attr("class", function(d){ return "Country" } )
     .style("opacity", .8)
-    .on("mouseover", mouseOver )
+    .on("mouseover", mouseOver)
     .on("mousemove", mousemove)
 
     .on("mouseleave", mouseLeave )
@@ -125,22 +127,22 @@ svg4.append("g")
       d3.select(this). style("stroke", "black")
       .append("title")
       .text(function(d) { selectedOption = d.id, total = d.total;
-        return d.properties.name + ", " +d.total})
+        return d.properties.name + "</br>" +d.total})
       if (total == 0) {
         svg2.selectAll("*").remove()
-              var rect = svg2.append("rect")
-    .attr("x", 0)
-    .attr("y", 0)
-    .attr("height", h)
-    .attr("width", w)
-    .style("fill", 'grey');
+    //           var rect = svg2.append("rect")
+    // .attr("x", 0)
+    // .attr("y", 0)
+    // .attr("height", h)
+    // .attr("width", w-100)
+    // .style("fill", 'grey');
 
         let ticker = svg2.append("text")
         .attr("x", w/2)
         .attr("y", h/2)
         .attr("text-anchor", "middle")
         .style("font-size", "30px")
-        .text("No data available for this country");
+        .text("No data available");
 
       }
       else {

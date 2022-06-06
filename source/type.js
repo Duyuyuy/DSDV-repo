@@ -65,7 +65,7 @@ const ySubgroup = d3.scaleBand()
 // color palette = one color per subgroup
 const color = d3.scaleOrdinal()
   .domain(subgroups)
-  .range(["#262626",'#D62A28'])
+  .range(['#D62A28',"#262626"])
 // console.log(y('2019'))
 // Show the bars
 var bar=svg.append("g")
@@ -83,8 +83,20 @@ var bar=svg.append("g")
     .attr("width",d => x(d.value)-x(0))
     .attr("height",  ySubgroup.bandwidth())
     .attr("fill", d => color(d.key))
+    .on("mouseover", function() {
+      d3.select(this)
+      .append("title")
+      .text(function(d) {
+        return d.key + ": " +parseInt(d.value);
+      });
+     })
+     .on("mouseout", function() {
+      d3.select(this)
+      .transition()
+      .duration(150)
+     })
     .on("click", function(d) {
-      let type, value, dat
+      let type, value, dat, color
       d3.select(this)
       .append("title")
       .text(function(d) { type = d.key, value = d.value;
@@ -92,10 +104,12 @@ var bar=svg.append("g")
 
         let year=data[2].find(x => x[type] === value).year;
         if (type==="Movie") {
-          dat=data[0].find(x => x.year === year);
+          dat=data[0].find(x => x.year === year)
+          color='#D62A28';
           }
           if  (type==="TV Show")
           { dat=data[1].find(x => x.year === year);
+            color='#262626';
             }
   
           
@@ -173,7 +187,7 @@ let group = output.map(d => d.key);
           .attr("cx", function(d) { return x0(d.value); })
           .attr("cy", function(d) { return y0(d.key); })
           .attr("r", "4")
-          .style("fill", "#69b3a2")
+          .style("fill", color)
           .attr("stroke", "black")
                .transition()
         .duration(1000);
