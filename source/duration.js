@@ -1,8 +1,8 @@
 (function (d3) { 
   'use strict';
-  const margin = {top: 30, right: 30, bottom: 60, left: 200};
-  const width = 800 - margin.left - margin.right;
-  const height = 700 - margin.top - margin.bottom;
+  const margin = {top: 30, right: 30, bottom: 60, left: 250};
+  const width = 750 - margin.left - margin.right;
+  const height = 650 - margin.top - margin.bottom;
 
   const svg4 = d3.select("#my_dataviz1")
                   .append("svg")
@@ -80,7 +80,7 @@
                             .attr("x", width / 2 )
                             .attr("y", height+40 )
                             .style("text-anchor", "middle")
-                            .style("font-size", "20px")
+                            .style("font-size", "16px")
                             .text("minutes");
 
             var allGroup = ['movie','TV_show'];
