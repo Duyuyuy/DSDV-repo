@@ -1,4 +1,4 @@
-# Airbnb_Analysis_Project_2022
+# Netflix — Data Visualization
 <p align="center">
   <img src="https://user-images.githubusercontent.com/89919775/224475189-264d6f27-b359-485f-a338-2fa5d29ca463.png" />
 </p>
@@ -13,7 +13,7 @@
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#project-objectives">Project Objectives</a></li>
     <li><a href="#process">Process</a></li>
-    <li><a href="#special-implementation">Special Implementation</a></li>
+    <li><a href="#visualization-design">Visualization Design</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#built-with">Built With</a></li>    
     <li><a href="#contributor">Contributor</a></li>
@@ -53,33 +53,29 @@ The project is aimed to show insights into “Netflix production trend from 2013
 
 -	Data analyzing
 
-## ✍️Visualization design
+## ✍️Visualization Design
 
 - Graph 1: Target audience
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89919775/224375725-9b97e15c-d860-4603-a22c-20830d91d6bf.png"><br/>
+  <img src="https://user-images.githubusercontent.com/89919775/224503223-70dbc3a6-744f-4643-84d0-a68ba1dbf4c3.gif"><br/>
 </p>
 
 - Graph 2: Video Duration and Season
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89919775/224373306-638e4e68-a558-480c-9974-f76a2b045698.png" width=800 ><br/>
+  <img src="https://user-images.githubusercontent.com/89919775/224502944-42773b5a-9f5f-467e-8f05-459b0392d11c.gif" width=800 ><br/>
 </p>
+
 
 - Graph 3: Video Update trend 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89919775/224379362-8e353dd1-3233-4edb-abab-4a64daeefb29.gif"><br/>
+  <img src="https://user-images.githubusercontent.com/89919775/224503028-b33d0c72-7aa6-4866-8a32-b993b7e814ef.gif"><br/>
   <i>Position of villa on the map</i>
 </p>
 
-Extract feature importance from Random Forest Regressor
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/89919775/224381761-91aae040-1654-4175-a0e9-b3d6334dabea.png" ><br/>
-</p>
 
 - Graph 4: Globalization
 <p align="center">
@@ -92,36 +88,35 @@ Extract feature importance from Random Forest Regressor
 
 <br>
 
-💘This project is a good opportunity for our group to express the understanding on many topics of the course, such as Data types, Mark & Channel, Interaction, Storytelling, and so on.
+💘This project is a good opportunity to express the understanding on many topics of the Data Science and Data Visualization course, such as Data types, Mark & Channel, Interaction, Storytelling, and so on.
 
 
 
 
 ## 🏗️Built with
 
-- ![Python Router](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+- ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
-- ![image](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&logo=apachespark&logoColor=#E35A16)
+- ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-- ![Folium](https://a11ybadges.com/badge?logo=folium)
+- ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-- ![Plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
+- ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-- ![Scipy](https://img.shields.io/badge/SciPy-654FF0?style=for-the-badge&logo=SciPy&logoColor=white)
+- ![Pandas](https://img.shields.io/badge/Payoneer-D73F03?style=for-the-badge&logo=payoneer&logoColor=white)
+
+
+- ![D3](https://img.shields.io/badge/d3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
+
 
 <!-- See more badge: https://github.com/Ileriayo/markdown-badges
   https://github.com/alexandresanlim/Badges4-README.md-Profile/blob/master/README.md#-database--->
 
-- MLxtend
-
-- fuzzywuzzy
-
-- pandas_profiling 3.2.0
 
 ## 👋Contributing
 
-<a href="https://github.com/thijnhdawjng">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+<a href="https://github.com/Duyuyuy/DSDV-repo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Duyuyuy/DSDV-repo" />
 </a>
 
 ## 📞Contact
