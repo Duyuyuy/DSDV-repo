@@ -1,8 +1,8 @@
 (function (d3) { 
   'use strict';
   const margin = {top: 10, right: 30, bottom: 20, left: 50};
-  const width = 500 - margin.left - margin.right;
-  const height = 350 - margin.top - margin.bottom;
+  const width = 720 - margin.left - margin.right;
+  const height = 450 - margin.top - margin.bottom;
 
   const svg = d3.select("#my_dataviz5")
                 .append("svg")

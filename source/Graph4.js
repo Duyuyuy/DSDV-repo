@@ -1,7 +1,7 @@
 (function (d3) { 
   'use strict';
-  const margin = {top: 10, right: 10, bottom: 10, left: 10};
-  const w = 1000 - margin.left - margin.right;
+  const margin = {top: 10, right: 10, bottom: 10, left: 300};
+  const w = 1300 - margin.left - margin.right;
   const h = 1000 - margin.top - margin.bottom;
 
   const svg4 = d3.select("#my_dataviz4")

@@ -1,8 +1,8 @@
 (function (d3) { 
   'use strict';
-  const margin = {top: 10, right: 30, bottom: 20, left: 220};
-  const w = 750 - margin.left - margin.right;
-  const h = 450 - margin.top - margin.bottom;
+  const margin = {top: 10, right: 30, bottom: 20, left: 400};
+  const w = 1200 - margin.left - margin.right;
+  const h = 600 - margin.top - margin.bottom;
 
   const svg3 = d3.select("#my_dataviz3")
                   .append("svg")
@@ -100,6 +100,7 @@
         .text(d => d.name.toUpperCase())
         .style("fill", d => myColor(d.name))
         .style("font-size", 28)
+        .style("font-weight", 500)
         .on("click", function(event, d){
           let currentOpacity = d3.selectAll("." + d.name)
                                   .style("opacity")

@@ -16,16 +16,16 @@
   width: 90%;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 10%;
   text-align: left;
 }
 .text-box1 h1{
-  font-size: 62px;
+  font-size: 80px;
   letter-spacing: 3px;
 }
 .text-box1 h2{
-  font-size: 32px;
+  font-size: 40px;
 }
 .text-box1 span{
   color: #D62A28;
@@ -36,12 +36,13 @@
   color: #fff;
   position: absolute;
   bottom: 77px;
-  left: 79%;
+  left: 80%;
   text-align: left;
 }
 .text-box2 h3{
-  font-size: 10;
-  font-weight: 700;
+  font-size: small;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 .line1{
 border-left: 5px solid #D62A28;
@@ -52,7 +53,7 @@ margin-left: -3px;
 bottom: 0;
 }
 .objective{
-  min-height: 50vh;
+  min-height: 85vh;
   width: 100%;
   background-color: #d62a28;
   background-position: center;
@@ -64,4 +65,106 @@ bottom: 0;
   left: 90%;
   margin-left: -3px;
   top: 100vh;
+}
+.text-box3{
+  width: 65%;
+  color: #fff;
+  position: absolute;
+  top: 150vh;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box3 h1{
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+.text-box3 h2{
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #262626;
+}
+.text-box3 p{
+  margin: 5px 0 50px;
+  font-size: 20px;
+}
+
+.part1{
+  margin: 15vh 170px 20px;
+}
+
+.text-box4{
+  text-align: center;
+}
+
+.text-box4 h1{
+  font-size: 50px;
+  color: #262626;
+}
+
+.text-box4 h2{
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #d62a28;
+}
+
+.part2{
+  margin: 20vh 170px 20px;
+}
+.text-box5{
+  text-align: center;
+}
+
+.text-box5 h1{
+  font-size: 50px;
+  color: #262626;
+}
+
+.text-box5 h2{
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #d62a28;
+}
+
+.part3{
+  margin: 20vh 170px 20px;
+}
+.text-box6{
+  text-align: center;
+}
+
+.text-box6 h1{
+  font-size: 50px;
+  color: #262626;
+}
+
+.text-box6 h2{
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #d62a28;
+}
+
+
+.part4{
+  margin: 20vh 170px 20px;
+  overflow: hidden;
+}
+.text-box7{
+  text-align: center;
+}
+
+.text-box7 h1{
+  font-size: 50px;
+  color: #262626;
+}
+
+.text-box7 h2{
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #d62a28;
+}
+
+.graph4 {
+  float: left;
+  padding: 10px;
 }
