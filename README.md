@@ -58,7 +58,7 @@ The project is aimed to show insights into “Netflix production trend from 2013
 - Graph 1: Target audience
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89919775/224503223-70dbc3a6-744f-4643-84d0-a68ba1dbf4c3.gif"><br/>
+  <img src="https://user-images.githubusercontent.com/89919775/224525391-09dfce32-a2bb-4f24-a7bd-3ad5ba29d1c6.gif"><br/>
 </p>
 
 - Graph 2: Video Duration and Season
@@ -72,15 +72,15 @@ The project is aimed to show insights into “Netflix production trend from 2013
 - Graph 3: Video Update trend 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89919775/224503028-b33d0c72-7aa6-4866-8a32-b993b7e814ef.gif"><br/>
-  <i>Position of villa on the map</i>
+  <img src="https://user-images.githubusercontent.com/89919775/224503223-70dbc3a6-744f-4643-84d0-a68ba1dbf4c3.gif"><br/>
 </p>
 
 
 - Graph 4: Globalization
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/89919775/224382170-de7f933f-0352-42e2-a887-b1f1403d1994.png" ><br/>
+  <img src="https://user-images.githubusercontent.com/89919775/224525213-a877641f-420b-4c64-be76-37cda2c8a39a.gif" ><br/>
 </p>
+
 
 ## 🏆Results
 
@@ -103,7 +103,7 @@ The project is aimed to show insights into “Netflix production trend from 2013
 
 - ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-- ![Pandas](https://img.shields.io/badge/Payoneer-D73F03?style=for-the-badge&logo=payoneer&logoColor=white)
+- ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 
 
 - ![D3](https://img.shields.io/badge/d3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
@@ -138,13 +138,10 @@ The project is aimed to show insights into “Netflix production trend from 2013
 
 
 ## 📖Acknowledgements
-[Pandas Profiling](https://towardsdatascience.com/pandas-profiling-easy-exploratory-data-analysis-in-python-65d6d0e23650)
+[SQL Syntax](https://www.w3schools.com/sql/sql_syntax.asp)
 
-[Polynomial Regression](https://www.w3schools.com/python/python_ml_polynomial_regression.asp)
+[D3 Graph Gallery](https://d3-graph-gallery.com/)
 
-[FPgrowth](https://hands-on.cloud/implementation-of-fp-growth-algorithm-using-python/)
-
-[Hyperparamer tunning in pyspark](https://spark.apache.org/docs/latest/ml-tuning.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
