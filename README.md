@@ -16,7 +16,7 @@
     <li><a href="#visualization-design">Visualization Design</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#built-with">Built With</a></li>    
-    <li><a href="#contributor">Contributor</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ol>
